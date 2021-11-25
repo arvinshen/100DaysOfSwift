@@ -12,15 +12,19 @@ A free education program to learn Swift over 100 days building real iOS apps.
 
 ### P1: Storm Viewer - app that lets users scroll through lists of images, then select one to view.
 
-Focused Topics: Intro to table views, image views, app bundles, FileManager, typecasting, view controllers, storyboards, outlets, Auto Layout, and loading images as UIImage, etc.
+Focused Topics: Table views, image views, app bundles, FileManager, typecasting, view controllers, storyboards, outlets, Auto Layout, and loading images as UIImage, etc.
 
 ### P2: Guess The Flag - game that shows the name of a country with several random flags to users and asks the player to choose the correct flag belonging to that particular country named.
 
-Focused Topics: Intro to asset catalogs, buttons, colors, @IBAction, UIAlertController, etc.
+Focused Topics: Asset catalogs, buttons, colors, @IBAction, UIAlertController, etc.
 
 ### P3: Project 1 Update to add share/save image function via UIActivityViewController.
 
-Focused Topics: Intro to navigation bar, UIBarButtonItem and UIActivityViewController.
+Focused Topics: Navigation bar, UIBarButtonItem and UIActivityViewController.
+
+### P4: Web Browser - simple app that allows users to browse the web.
+
+Focused Topics: WKWebView, loadView(), action sheets, delegation, URL, URLRequest, UIToolbar, UIProgressView, key-value observing, etc.
 
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
