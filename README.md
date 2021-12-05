@@ -30,6 +30,12 @@ Focused Topics: WKWebView, loadView(), action sheets, delegation, URL, URLReques
 
 Focused Topics: UITableView (reloading table view data and insert rows), UIAlertController (accepting user input), Strings & UTF-16, closures, NSRange, and capture lists.
 
+### P6: 
+* a. Project 2 Update to fix app in landscape mode using Auto Layout.
+* b. Simple app where we create views by hand and position them using Auto Layout.
+
+Focused Topics: Auto Layout (metrics, priorities, Visual Formatting Language, anchors)
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
