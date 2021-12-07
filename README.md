@@ -40,3 +40,5 @@ Focused Topics: Auto Layout (metrics, priorities, Visual Formatting Language, an
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
 ### C1 (Consolidation of P1-3): Flag Viewer - app that lists names and images of country flags created using TableViews, that when selected will view the flag in larger detail in another ViewController and have the functionality to share the image using UIActivityViewController.
+
+### C2 (Consolidation of P4-6): Shopping List - app that lets you add items to create a shopping list.
