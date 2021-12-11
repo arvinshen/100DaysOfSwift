@@ -26,7 +26,7 @@ Focused Topics: Navigation bar, UIBarButtonItem and UIActivityViewController.
 
 Focused Topics: WKWebView, loadView(), action sheets, delegation, URL, URLRequest, UIToolbar, UIProgressView, key-value observing, etc.
 
-### P5: Word Scramble - app that asks users to make words with the letters of a given word (i.e. make anagrams out of a word)
+### P5: Word Scramble - app that asks users to make words with the letters of a given word (i.e. make anagrams out of a word).
 
 Focused Topics: UITableView (reloading table view data and insert rows), UIAlertController (accepting user input), Strings & UTF-16, closures, NSRange, and capture lists.
 
@@ -34,7 +34,12 @@ Focused Topics: UITableView (reloading table view data and insert rows), UIAlert
 * a. Project 2 Update to fix app in landscape mode using Auto Layout.
 * b. Simple app where we create views by hand and position them using Auto Layout.
 
-Focused Topics: Auto Layout (metrics, priorities, Visual Formatting Language, anchors)
+Focused Topics: Auto Layout (metrics, priorities, Visual Formatting Language, anchors).
+
+### P7: Whitehouse Petitions - app that shows the Whitehouse petitions in the US.
+
+Focused Topics: Downloading/parsing JSON with Data, Codable, UITabBarController, UIStoryBoard
+* Note: Added a dynamic filtering search bar using UISearchController and UISearchBar to improve the functionality of Project 7 Challenge #2 (Not taught in Hacking With Swift up to this point).
 
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
