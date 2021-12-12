@@ -41,6 +41,10 @@ Focused Topics: Auto Layout (metrics, priorities, Visual Formatting Language, an
 Focused Topics: Downloading/parsing JSON with Data, Codable, UITabBarController, UIStoryBoard
 * Note: Added a dynamic filtering search bar using UISearchController and UISearchBar to improve the functionality of Project 7 Challenge #2 (Not taught in Hacking With Swift up to this point).
 
+### P8: Swifty Words - word game app based on the popular indie game 7 Little Words.
+
+Focused Topics: Building iOS layouts programmatically using UIKit (e.g. UILabel, UIButton, UITextField, NSLayoutConstraint.activate( ), safeAreaLayoutGuide, layoutMarginsGuide, etc.), enumerated( ), joined( ), replacingOccurrences( ), and more. 
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
