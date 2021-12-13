@@ -43,7 +43,12 @@ Focused Topics: Downloading/parsing JSON with Data, Codable, UITabBarController,
 
 ### P8: Swifty Words - word game app based on the popular indie game 7 Little Words.
 
-Focused Topics: Building iOS layouts programmatically using UIKit (e.g. UILabel, UIButton, UITextField, NSLayoutConstraint.activate( ), safeAreaLayoutGuide, layoutMarginsGuide, etc.), enumerated( ), joined( ), replacingOccurrences( ), and more. 
+Focused Topics: Building iOS layouts programmatically using UIKit (e.g. UILabel, UIButton, UITextField, NSLayoutConstraint.activate(), safeAreaLayoutGuide, layoutMarginsGuide, etc.), enumerated(), joined(), replacingOccurrences(), and more. 
+
+### P9: Project 7 Update to download/parse JSON data asynchronously with the user interface.
+
+Focused Topics: Grand Central Dispatch, performSelector(), Quality of Service
+* Note: P9 Challenges 1, 2, 3 modifies P1, P8, P7 respectively.
 
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
