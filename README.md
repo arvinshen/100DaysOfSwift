@@ -8,6 +8,8 @@
 ## General Info
 A free education program to learn Swift over 100 days building real iOS apps.
 
+* Disclosure: iPhone X<sub>R</sub> is the default device used for the UI layout. Early projects' UI layout are not dynamic and may break the app's functionality if other devices are used and/or orientation is changed.
+
 ## Projects:
 
 ### P1: Storm Viewer - app that lets users scroll through lists of images, then select one to view.
@@ -56,3 +58,5 @@ Challenge/Milestone projects that cover multiple projects and the topics learned
 ### C1 (Consolidation of P1-3): Flag Viewer - app that lists names and images of country flags created using TableViews, that when selected will view the flag in larger detail in another ViewController and have the functionality to share the image using UIActivityViewController.
 
 ### C2 (Consolidation of P4-6): Shopping List - app that lets you add items to create a shopping list.
+
+### C3 (Consolidation of P7-9): Hangman - app to play the guessing game, Hangman.

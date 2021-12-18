@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85655CDE2767F8AA005ED14D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85655CDD2767F8AA005ED14D /* AppDelegate.swift */; };
+		85655CE02767F8AA005ED14D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85655CDF2767F8AA005ED14D /* SceneDelegate.swift */; };
+		85655CE22767F8AA005ED14D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85655CE12767F8AA005ED14D /* ViewController.swift */; };
+		85655CE52767F8AA005ED14D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85655CE32767F8AA005ED14D /* Main.storyboard */; };
+		85655CE72767F8B9005ED14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85655CE62767F8B9005ED14D /* Assets.xcassets */; };
+		85655CEA2767F8B9005ED14D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85655CE82767F8B9005ED14D /* LaunchScreen.storyboard */; };
+		85655CF4276853AF005ED14D /* HangmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85655CF3276853AF005ED14D /* HangmanView.swift */; };
+		85655CF92769999A005ED14D /* movies-list.json in Resources */ = {isa = PBXBuildFile; fileRef = 85655CF82769999A005ED14D /* movies-list.json */; };
+		85655CFD276ADCB4005ED14D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85655CFC276ADCB4005ED14D /* Movie.swift */; };
+		85655D00276ADD20005ED14D /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85655CFF276ADD20005ED14D /* Movies.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85655CDA2767F8AA005ED14D /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85655CDD2767F8AA005ED14D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85655CDF2767F8AA005ED14D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85655CE12767F8AA005ED14D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85655CE42767F8AA005ED14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85655CE62767F8B9005ED14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85655CE92767F8B9005ED14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85655CEB2767F8BA005ED14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85655CF3276853AF005ED14D /* HangmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanView.swift; sourceTree = "<group>"; };
+		85655CF82769999A005ED14D /* movies-list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "movies-list.json"; sourceTree = "<group>"; };
+		85655CFC276ADCB4005ED14D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		85655CFF276ADD20005ED14D /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85655CD72767F8AA005ED14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85655CD12767F8AA005ED14D = {
+			isa = PBXGroup;
+			children = (
+				85655CDC2767F8AA005ED14D /* Hangman */,
+				85655CDB2767F8AA005ED14D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85655CDB2767F8AA005ED14D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85655CDA2767F8AA005ED14D /* Hangman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85655CDC2767F8AA005ED14D /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				85655CDD2767F8AA005ED14D /* AppDelegate.swift */,
+				85655CDF2767F8AA005ED14D /* SceneDelegate.swift */,
+				85655CE12767F8AA005ED14D /* ViewController.swift */,
+				85655CFC276ADCB4005ED14D /* Movie.swift */,
+				85655CFF276ADD20005ED14D /* Movies.swift */,
+				85655CF3276853AF005ED14D /* HangmanView.swift */,
+				85655CE32767F8AA005ED14D /* Main.storyboard */,
+				85655CE62767F8B9005ED14D /* Assets.xcassets */,
+				85655CE82767F8B9005ED14D /* LaunchScreen.storyboard */,
+				85655CEB2767F8BA005ED14D /* Info.plist */,
+				85655CF82769999A005ED14D /* movies-list.json */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85655CD92767F8AA005ED14D /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85655CEE2767F8BA005ED14D /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				85655CD62767F8AA005ED14D /* Sources */,
+				85655CD72767F8AA005ED14D /* Frameworks */,
+				85655CD82767F8AA005ED14D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = 85655CDA2767F8AA005ED14D /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85655CD22767F8AA005ED14D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					85655CD92767F8AA005ED14D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 85655CD52767F8AA005ED14D /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85655CD12767F8AA005ED14D;
+			productRefGroup = 85655CDB2767F8AA005ED14D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85655CD92767F8AA005ED14D /* Hangman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85655CD82767F8AA005ED14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85655CF92769999A005ED14D /* movies-list.json in Resources */,
+				85655CEA2767F8B9005ED14D /* LaunchScreen.storyboard in Resources */,
+				85655CE72767F8B9005ED14D /* Assets.xcassets in Resources */,
+				85655CE52767F8AA005ED14D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85655CD62767F8AA005ED14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85655CF4276853AF005ED14D /* HangmanView.swift in Sources */,
+				85655CE22767F8AA005ED14D /* ViewController.swift in Sources */,
+				85655D00276ADD20005ED14D /* Movies.swift in Sources */,
+				85655CDE2767F8AA005ED14D /* AppDelegate.swift in Sources */,
+				85655CE02767F8AA005ED14D /* SceneDelegate.swift in Sources */,
+				85655CFD276ADCB4005ED14D /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85655CE32767F8AA005ED14D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85655CE42767F8AA005ED14D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85655CE82767F8B9005ED14D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85655CE92767F8B9005ED14D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85655CEC2767F8BA005ED14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85655CED2767F8BA005ED14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85655CEF2767F8BA005ED14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC325LS73S;
+				INFOPLIST_FILE = Hangman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arvinshen.Hangman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85655CF02767F8BA005ED14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SC325LS73S;
+				INFOPLIST_FILE = Hangman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arvinshen.Hangman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85655CD52767F8AA005ED14D /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85655CEC2767F8BA005ED14D /* Debug */,
+				85655CED2767F8BA005ED14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85655CEE2767F8BA005ED14D /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85655CEF2767F8BA005ED14D /* Debug */,
+				85655CF02767F8BA005ED14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85655CD22767F8AA005ED14D /* Project object */;
+}
