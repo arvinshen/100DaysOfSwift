@@ -52,6 +52,11 @@ Focused Topics: Building iOS layouts programmatically using UIKit (e.g. UILabel,
 Focused Topics: Grand Central Dispatch, performSelector(), Quality of Service
 * Note: P9 Challenges 1, 2, 3 modifies P1, P8, P7 respectively.
 
+### P10: Names to Faces - app to help remember the names and faces of people met.
+
+Focused Topics: UICollectionView, UIImagePickerController, UUID, NSObject subclases, fatalError()
+* Note: P10 Challenge 3 modifies a copy of P1 to use a collection view controller rather than a table view controller.
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
