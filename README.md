@@ -57,6 +57,10 @@ Focused Topics: Grand Central Dispatch, performSelector(), Quality of Service
 Focused Topics: UICollectionView, UIImagePickerController, UUID, NSObject subclases, fatalError()
 * Note: P10 Challenge 3 modifies a copy of P1 to use a collection view controller rather than a table view controller.
 
+### P11: Pachinko - a simple game app based on Pachinko
+
+Focused Topics: SpriteKit, physics, blend modes, radians and CGFloat.
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
