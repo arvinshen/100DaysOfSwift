@@ -61,6 +61,11 @@ Focused Topics: UICollectionView, UIImagePickerController, UUID, NSObject subcla
 
 Focused Topics: SpriteKit, physics, blend modes, radians and CGFloat.
 
+### P12: Project 10 Update to fix bug where names/faces added to app don't get saved.
+
+Focused Topics: UserDefaults (saving data and user settings / backups and restores data), NSCoding, Codable
+* Note: P12 Challenge 1, 2, 3 modifies copies of P3, P6, P5 respectively.
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
