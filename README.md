@@ -66,6 +66,10 @@ Focused Topics: SpriteKit, physics, blend modes, radians and CGFloat.
 Focused Topics: UserDefaults (saving data and user settings / backups and restores data), NSCoding, Codable
 * Note: P12 Challenge 1, 2, 3 modifies copies of P3, P6, P5 respectively.
 
+### P13: Instafilter - app that allows users to choose a photo from their album, change and apply filters, and save the processed image back to photo album.
+
+Focused Topics: Core Image, UISlider, and Writing images to iOS photo album.
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
