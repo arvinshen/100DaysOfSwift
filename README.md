@@ -70,6 +70,10 @@ Focused Topics: UserDefaults (saving data and user settings / backups and restor
 
 Focused Topics: Core Image, UISlider, and Writing images to iOS photo album.
 
+### P14: Whack-a-Penguin - app to play a game inspired by whack-a-mole.
+
+Focused Topics: SKCropNode, SKTexture, asyncAfter(), New SKAction types
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
