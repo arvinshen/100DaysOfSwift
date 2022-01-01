@@ -74,3 +74,5 @@ Challenge/Milestone projects that cover multiple projects and the topics learned
 ### C2 (Consolidation of P4-6): Shopping List - app that lets you add items to create a shopping list.
 
 ### C3 (Consolidation of P7-9): Hangman - app to play the guessing game, Hangman.
+
+### C4 (Consolidation of P10-12): Photo Caption View - app that lets users take and save pictures, add captions and view them in a table view. Tapping the caption shows the picture in a new view controller.
