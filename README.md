@@ -8,7 +8,7 @@
 ## General Info
 A free education program to learn Swift over 100 days building real iOS apps.
 
-* Disclosure: iPhone X<sub>R</sub> is the default device used for the UI layout. Early projects' UI layout are not dynamic and may break the app's functionality if other devices are used and/or orientation is changed.
+* Disclosure: iPhone X<sub>R</sub> is the default device used for the UI layout. Early projects' UI layout are not dynamic and may break the app's functionality if other devices are used and/or orientation is changed. Projects 1-12 challenges completed on original while challenges for projects 13 and onward are done on a copy of the project.
 
 ## Projects:
 
@@ -73,6 +73,10 @@ Focused Topics: Core Image, UISlider, and Writing images to iOS photo album.
 ### P14: Whack-a-Penguin - app to play a game inspired by whack-a-mole.
 
 Focused Topics: SKCropNode, SKTexture, asyncAfter(), New SKAction types
+
+### P15: Animation - app that performs animations when a button is tapped (sandbox for coding animations).
+
+Focused Topics: Core Animation, animate(withDuration:), Spring animations, Alpha values, CGAffineTransform
 
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
