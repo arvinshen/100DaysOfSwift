@@ -93,6 +93,11 @@ App that performs animations when a button is tapped (sandbox for coding animati
 Focused Topics: Core Animation, animate(withDuration:), Spring animations, Alpha values, CGAffineTransform
 * Note: P15 Challenge 1, 2, 3 modifies copies of P8, P13, P6a respectively.
 
+### P16: Capital Cities
+App that shows information about capital cities that have placemarks on the map.
+
+Focused Topics: MapKit, MKMapView, MKAnnotation, MKPinAnnotationView, CLLocationCoordinate2D
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
