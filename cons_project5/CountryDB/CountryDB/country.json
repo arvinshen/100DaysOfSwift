@@ -1,0 +1,4281 @@
+{
+  "metadata": {
+    "responseInfo": {
+      "status": 200,
+      "developerMessage": "OK",
+      "userMessage": "",
+      "errorCode": "",
+      "moreInfo": ""
+    },
+    "requestInfo": {
+      "apiVersion": 1,
+      "resource": "countries",
+      "query": {
+        "body": null,
+        "createdAfter": null,
+        "createdAt": null,
+        "createdBefore": null,
+        "isPublic": 1,
+        "isSignable": null,
+        "limit": "100",
+        "mock": 0,
+        "offset": 0,
+        "petitionsDefaultLimit": "1000",
+        "publicThreshold": 149,
+        "responseId": null,
+        "signatureCount": null,
+        "signatureCountCeiling": null,
+        "signatureCountFloor": 0,
+        "signatureThreshold": null,
+        "signatureThresholdCeiling": null,
+        "signatureThresholdFloor": null,
+        "sortBy": "DATE_REACHED_PUBLIC",
+        "sortOrder": "ASC",
+        "status": null,
+        "title": null,
+        "url": null,
+        "websiteUrl": ""
+      }
+    },
+    "resultset": {
+      "count": 1375,
+      "limit": 100,
+      "offset": 0
+    }
+  },
+  "countries": [
+    {
+      "country": "Afghanistan",
+      "abbreviation": "AF",
+      "city": "Kabul",
+      "continent": "Asia",
+      "currency_code": "AFN",
+      "currency_name": "Afghanistan Afghani",
+      "government": "Islamic Emirate",
+      "independence": 1919,
+      "languages": [
+        "Balochi",
+        "Dari",
+        "Pashto",
+        "Turkmenian",
+        "Uzbek"
+      ],
+      "population": 37172386,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Albania",
+      "abbreviation": "AL",
+      "city": "Tirana",
+      "continent": "Europe",
+      "currency_code": "ALL",
+      "currency_name": "Albanian Lek",
+      "government": "Republic",
+      "independence": 1912,
+      "languages": [
+        "Albaniana",
+        "Greek",
+        "Macedonian"
+      ],
+      "population": 2866376,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Algeria",
+      "abbreviation": "DZ",
+      "city": "Alger",
+      "continent": "Africa",
+      "currency_code": "DZD",
+      "currency_name": "Algerian Dinar",
+      "government": "Republic",
+      "independence": 1962,
+      "languages": [
+        "Arabic",
+        "Berberi"
+      ],
+      "population": 42228429,
+      "location": "Northern Africa"
+    },
+    {
+      "country": "American Samoa",
+      "abbreviation": "AS",
+      "city": "Fagatogo",
+      "continent": "Oceania",
+      "currency_code": "USD",
+      "currency_name": "US Dollar",
+      "government": "US Territory",
+      "independence": null,
+      "languages": [
+        "English",
+        "Samoan",
+        "Tongan"
+      ],
+      "population": 55465,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Andorra",
+      "abbreviation": "AD",
+      "city": "Andorra la Vella",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Parliamentary Coprincipality",
+      "independence": 1278,
+      "languages": [
+        "Catalan",
+        "French",
+        "Portuguese",
+        "Spanish"
+      ],
+      "population": 77006,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Angola",
+      "abbreviation": "AO",
+      "city": "Luanda",
+      "continent": "Africa",
+      "currency_code": "AOA",
+      "currency_name": "Angolan Kwanza",
+      "government": "Republic",
+      "independence": 1975,
+      "languages": [
+        "Ambo",
+        "Chokwe",
+        "Kongo",
+        "Luchazi",
+        "Luimbe-nganguela",
+        "Luvale",
+        "Mbundu",
+        "Nyaneka-nkhumbi",
+        "Ovimbundu"
+      ],
+      "population": 30809762,
+      "location": "Central Africa"
+    },
+    {
+      "country": "Anguilla",
+      "abbreviation": "AI",
+      "city": "The Valley",
+      "continent": "North America",
+      "currency_code": "XCD",
+      "currency_name": "East Caribbean Dollar",
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 15094,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "abbreviation": "AG",
+      "city": "Saint John's",
+      "continent": "North America",
+      "currency_code": "XCD",
+      "currency_name": "East Caribbean Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1981,
+      "languages": [
+        "Creole English",
+        "English"
+      ],
+      "population": 96286,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Argentina",
+      "abbreviation": "AR",
+      "city": "Buenos Aires",
+      "continent": "South America",
+      "currency_code": "ARS",
+      "currency_name": "Argentine Peso",
+      "government": "Federal Republic",
+      "independence": 1816,
+      "languages": [
+        "Indian Languages",
+        "Italian",
+        "Spanish"
+      ],
+      "population": 44494502,
+      "location": "South America"
+    },
+    {
+      "country": "Armenia",
+      "abbreviation": "AM",
+      "city": "Yerevan",
+      "continent": "Asia",
+      "currency_code": "AMD",
+      "currency_name": "Armenian Dram",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Armenian",
+        "Azerbaijani"
+      ],
+      "population": 2951776,
+      "location": "Middle East"
+    },
+    {
+      "country": "Aruba",
+      "abbreviation": "AW",
+      "city": "Oranjestad",
+      "continent": "North America",
+      "currency_code": "AWG",
+      "currency_name": "Aruban Guilder",
+      "government": "Nonmetropolitan Territory of The Netherlands",
+      "independence": null,
+      "languages": [
+        "Dutch",
+        "English",
+        "Papiamento",
+        "Spanish"
+      ],
+      "population": 105845,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Australia",
+      "abbreviation": "AU",
+      "city": "Canberra",
+      "continent": "Oceania",
+      "currency_code": "AUD",
+      "currency_name": "Australian Dollar",
+      "government": "Federation Constitutional Monarchy",
+      "independence": 1901,
+      "languages": [
+        "Arabic",
+        "Canton Chinese",
+        "English",
+        "German",
+        "Greek",
+        "Italian",
+        "Serbo-Croatian",
+        "Vietnamese"
+      ],
+      "population": 24982688,
+      "location": "Australia and New Zealand"
+    },
+    {
+      "country": "Austria",
+      "abbreviation": "AT",
+      "city": "Wien",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Federal Republic",
+      "independence": 1918,
+      "languages": [
+        "Czech",
+        "German",
+        "Hungarian",
+        "Polish",
+        "Romanian",
+        "Serbo-Croatian",
+        "Slovene",
+        "Turkish"
+      ],
+      "population": 8840521,
+      "location": "Western Europe"
+    },
+    {
+      "country": "Azerbaijan",
+      "abbreviation": "AZ",
+      "city": "Baku",
+      "continent": "Asia",
+      "currency_code": "AZN",
+      "currency_name": "Azerbaijan New Manat",
+      "government": "Federal Republic",
+      "independence": 1991,
+      "languages": [
+        "Armenian",
+        "Azerbaijani",
+        "Lezgian",
+        "Russian"
+      ],
+      "population": 9939800,
+      "location": "Middle East"
+    },
+    {
+      "country": "Bahamas",
+      "abbreviation": "BS",
+      "city": "Nassau",
+      "continent": "North America",
+      "currency_code": "BSD",
+      "currency_name": "Bahamian Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1973,
+      "languages": [
+        "Creole English",
+        "Creole French"
+      ],
+      "population": 385640,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Bahrain",
+      "abbreviation": "BH",
+      "city": "al-Manama",
+      "continent": "Asia",
+      "currency_code": "BHD",
+      "currency_name": "Bahraini Dinar",
+      "government": "Monarchy (Emirate)",
+      "independence": 1971,
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "population": 1569439,
+      "location": "Middle East"
+    },
+    {
+      "country": "Bangladesh",
+      "abbreviation": "BD",
+      "city": "Dhaka",
+      "continent": "Asia",
+      "currency_code": "BDT",
+      "currency_name": "Bangladeshi Taka",
+      "government": "Republic",
+      "independence": 1971,
+      "languages": [
+        "Bengali",
+        "Chakma",
+        "Garo",
+        "Khasi",
+        "Marma",
+        "Santhali",
+        "Tripuri"
+      ],
+      "population": 161356039,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Barbados",
+      "abbreviation": "BB",
+      "city": "Bridgetown",
+      "continent": "North America",
+      "currency_code": "BBD",
+      "currency_name": "Barbados Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1966,
+      "languages": [
+        "Bajan",
+        "English"
+      ],
+      "population": 286641,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Belarus",
+      "abbreviation": "BY",
+      "city": "Minsk",
+      "continent": "Europe",
+      "currency_code": "BYR",
+      "currency_name": "Belarussian Ruble",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Belorussian",
+        "Polish",
+        "Russian",
+        "Ukrainian"
+      ],
+      "population": 9483499,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Belgium",
+      "abbreviation": "BE",
+      "city": "Bruxelles [Brussel]",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Federation Constitutional Monarchy",
+      "independence": 1830,
+      "languages": [
+        "Arabic",
+        "Dutch",
+        "French",
+        "German",
+        "Italian",
+        "Turkish"
+      ],
+      "population": 11433256,
+      "location": "Western Europe"
+    },
+    {
+      "country": "Belize",
+      "abbreviation": "BZ",
+      "city": "Belmopan",
+      "continent": "North America",
+      "currency_code": "BZD",
+      "currency_name": "Belize Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1981,
+      "languages": [
+        "English",
+        "Garifuna",
+        "Maya Languages",
+        "Spanish"
+      ],
+      "population": 383071,
+      "location": "Central America"
+    },
+    {
+      "country": "Benin",
+      "abbreviation": "BJ",
+      "city": "Porto-Novo",
+      "continent": "Africa",
+      "currency_code": "XOF",
+      "currency_name": "CFA Franc BCEAO",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Adja",
+        "Aizo",
+        "Bariba",
+        "Fon",
+        "Ful",
+        "Joruba",
+        "Somba"
+      ],
+      "population": 11485048,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Bermuda",
+      "abbreviation": "BM",
+      "city": "Hamilton",
+      "continent": "North America",
+      "currency_code": "BMD",
+      "currency_name": "Bermudian Dollar",
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 63973,
+      "location": "North America"
+    },
+    {
+      "country": "Bhutan",
+      "abbreviation": "BT",
+      "city": "Thimphu",
+      "continent": "Asia",
+      "currency_code": "BTN",
+      "currency_name": "Bhutan Ngultrum",
+      "government": "Monarchy",
+      "independence": 1910,
+      "languages": [
+        "Asami",
+        "Dzongkha",
+        "Nepali"
+      ],
+      "population": 754394,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Bolivia",
+      "abbreviation": "BO",
+      "city": "La Paz",
+      "continent": "South America",
+      "currency_code": "BOB",
+      "currency_name": "Boliviano",
+      "government": "Republic",
+      "independence": 1825,
+      "languages": [
+        "Aimar\u00e2\u02c6\u0161\u00c2\u00b0",
+        "Guaran\u00e2\u02c6\u0161\u00e2\u2030\u00a0",
+        "Ket\u00c2\u00ac\u00c3\u00b6ua",
+        "Spanish"
+      ],
+      "population": 11353142,
+      "location": "South America"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "abbreviation": "BA",
+      "city": "Sarajevo",
+      "continent": "Europe",
+      "currency_code": "BAM",
+      "currency_name": null,
+      "government": "Federal Republic",
+      "independence": 1992,
+      "languages": [
+        "Bosnian"
+      ],
+      "population": 3323929,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Botswana",
+      "abbreviation": "BW",
+      "city": "Gaborone",
+      "continent": "Africa",
+      "currency_code": "BWP",
+      "currency_name": "Botswana Pula",
+      "government": "Republic",
+      "independence": 1966,
+      "languages": [
+        "Khoekhoe",
+        "Ndebele",
+        "San",
+        "Shona",
+        "Tswana"
+      ],
+      "population": 2254126,
+      "location": "Southern Africa"
+    },
+    {
+      "country": "Brazil",
+      "abbreviation": "BR",
+      "city": "Bras\u00c3\u00adlia",
+      "continent": "South America",
+      "currency_code": "BRL",
+      "currency_name": "Brazilian Real",
+      "government": "Federal Republic",
+      "independence": 1822,
+      "languages": [
+        "German",
+        "Indian Languages",
+        "Italian",
+        "Japanese",
+        "Portuguese"
+      ],
+      "population": 209469333,
+      "location": "South America"
+    },
+    {
+      "country": "Brunei",
+      "abbreviation": "BN",
+      "city": "Bandar Seri Begawan",
+      "continent": "Asia",
+      "currency_code": "BND",
+      "currency_name": null,
+      "government": "Monarchy (Sultanate)",
+      "independence": 1984,
+      "languages": [
+        "Chinese",
+        "English",
+        "Malay",
+        "Malay-English"
+      ],
+      "population": 428962,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Bulgaria",
+      "abbreviation": "BG",
+      "city": "Sofia",
+      "continent": "Europe",
+      "currency_code": "BGN",
+      "currency_name": "Bulgarian Lev",
+      "government": "Republic",
+      "independence": 1908,
+      "languages": [
+        "Bulgariana",
+        "Macedonian",
+        "Romani",
+        "Turkish"
+      ],
+      "population": 7025037,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Burkina Faso",
+      "abbreviation": "BF",
+      "city": "Ouagadougou",
+      "continent": "Africa",
+      "currency_code": "XOF",
+      "currency_name": "CFA Franc BCEAO",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Busansi",
+        "Dagara",
+        "Dyula",
+        "Ful",
+        "Gurma",
+        "Mossi"
+      ],
+      "population": 19751535,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Burundi",
+      "abbreviation": "BI",
+      "city": "Bujumbura",
+      "continent": "Africa",
+      "currency_code": "BIF",
+      "currency_name": "Burundi Franc",
+      "government": "Republic",
+      "independence": 1962,
+      "languages": [
+        "French",
+        "Kirundi",
+        "Swahili"
+      ],
+      "population": 11175378,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Cambodia",
+      "abbreviation": "KH",
+      "city": "Phnom Penh",
+      "continent": "Asia",
+      "currency_code": "KHR",
+      "currency_name": "Kampuchean Riel",
+      "government": "Constitutional Monarchy",
+      "independence": 1953,
+      "languages": [
+        "Chinese",
+        "Khmer",
+        "T\u00c2\u00ac\u00c3\u00b6am",
+        "Vietnamese"
+      ],
+      "population": 16249798,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Cameroon",
+      "abbreviation": "CM",
+      "city": "Yaound",
+      "continent": "Africa",
+      "currency_code": "XAF",
+      "currency_name": "CFA Franc BEAC",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Bamileke-bamum",
+        "Duala",
+        "Fang",
+        "Ful",
+        "Maka",
+        "Mandara",
+        "Masana",
+        "Tikar"
+      ],
+      "population": 25216237,
+      "location": "Central Africa"
+    },
+    {
+      "country": "Canada",
+      "abbreviation": "CA",
+      "city": "Ottawa",
+      "continent": "North America",
+      "currency_code": "CAD",
+      "currency_name": "Canadian Dollar",
+      "government": "Constitutional Monarchy, Federation",
+      "independence": 1867,
+      "languages": [
+        "Chinese",
+        "Dutch",
+        "English",
+        "Eskimo Languages",
+        "French",
+        "German",
+        "Italian",
+        "Polish",
+        "Portuguese",
+        "Punjabi",
+        "Spanish",
+        "Ukrainian"
+      ],
+      "population": 37057765,
+      "location": "North America"
+    },
+    {
+      "country": "Cape Verde",
+      "abbreviation": "CV",
+      "city": "Praia",
+      "continent": "Africa",
+      "currency_code": "CVE",
+      "currency_name": "Cape Verde Escudo",
+      "government": "Republic",
+      "independence": 1975,
+      "languages": [
+        "Crioulo",
+        "Portuguese"
+      ],
+      "population": 543767,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Cayman Islands",
+      "abbreviation": "KY",
+      "city": "George Town",
+      "continent": "North America",
+      "currency_code": "KYD",
+      "currency_name": "Cayman Islands Dollar",
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 64174,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Central African Republic",
+      "abbreviation": "CF",
+      "city": "Bangui",
+      "continent": "Africa",
+      "currency_code": "XAF",
+      "currency_name": "CFA Franc BEAC",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Banda",
+        "Gbaya",
+        "Mandjia",
+        "Mbum",
+        "Ngbaka",
+        "Sara"
+      ],
+      "population": 4666377,
+      "location": "Central Africa"
+    },
+    {
+      "country": "Chad",
+      "abbreviation": "TD",
+      "city": "N'Djam",
+      "continent": "Africa",
+      "currency_code": "XAF",
+      "currency_name": null,
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Arabic",
+        "Gorane",
+        "Hadjarai",
+        "Kanem-bornu",
+        "Mayo-kebbi",
+        "Ouaddai",
+        "Sara",
+        "Tandjile"
+      ],
+      "population": 15477751,
+      "location": "Central Africa"
+    },
+    {
+      "country": "Chile",
+      "abbreviation": "CL",
+      "city": "Santiago de Chile",
+      "continent": "South America",
+      "currency_code": "CLP",
+      "currency_name": "Chilean Peso",
+      "government": "Republic",
+      "independence": 1810,
+      "languages": [
+        "Aimar\u00e2\u02c6\u0161\u00c2\u00b0",
+        "Araucan",
+        "Rapa nui",
+        "Spanish"
+      ],
+      "population": 18729160,
+      "location": "South America"
+    },
+    {
+      "country": "China",
+      "abbreviation": "CN",
+      "city": "Peking",
+      "continent": "Asia",
+      "currency_code": "CNY",
+      "currency_name": "Yuan Renminbi",
+      "government": "People's Republic",
+      "independence": -1523,
+      "languages": [
+        "Chinese",
+        "Dong",
+        "Hui",
+        "Mant\u00c2\u00ac\u00c3\u00b6u",
+        "Miao",
+        "Mongolian",
+        "Puyi",
+        "Tibetan",
+        "Tujia",
+        "Uighur",
+        "Yi",
+        "Zhuang"
+      ],
+      "population": 1392730000,
+      "location": "Eastern Asia"
+    },
+    {
+      "country": "Christmas Island",
+      "abbreviation": "CX",
+      "city": "Flying Fish Cove",
+      "continent": "Oceania",
+      "currency_code": "AUD",
+      "currency_name": "Australian Dollar",
+      "government": "Territory of Australia",
+      "independence": null,
+      "languages": [
+        "Chinese",
+        "English"
+      ],
+      "population": 1402,
+      "location": "Australia and New Zealand"
+    },
+    {
+      "country": "Cocos (Keeling) Islands",
+      "abbreviation": "CC",
+      "city": "West Island",
+      "continent": "Oceania",
+      "currency_code": "AUD",
+      "currency_name": " Australian Dollar",
+      "government": "Territory of Australia",
+      "independence": null,
+      "languages": [
+        "English",
+        "Malay"
+      ],
+      "population": 596,
+      "location": "Australia and New Zealand"
+    },
+    {
+      "country": "Colombia",
+      "abbreviation": "CO",
+      "city": "Santaf",
+      "continent": "South America",
+      "currency_code": "COP",
+      "currency_name": "Colombian Peso",
+      "government": "Republic",
+      "independence": 1810,
+      "languages": [
+        "Arawakan",
+        "Caribbean",
+        "Chibcha",
+        "Creole English",
+        "Spanish"
+      ],
+      "population": 49648685,
+      "location": "South America"
+    },
+    {
+      "country": "Comoros",
+      "abbreviation": "KM",
+      "city": "Moroni",
+      "continent": "Africa",
+      "currency_code": "KMF",
+      "currency_name": "Comoros Franc",
+      "government": "Republic",
+      "independence": 1975,
+      "languages": [
+        "Comorian",
+        "Comorian-Arabic",
+        "Comorian-French",
+        "Comorian-madagassi",
+        "Comorian-Swahili"
+      ],
+      "population": 832322,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Congo",
+      "abbreviation": "CG",
+      "city": "Brazzaville",
+      "continent": "Africa",
+      "currency_code": "XAF",
+      "currency_name": "CFA Franc BEAC",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Kongo",
+        "Mbete",
+        "Mboshi",
+        "Punu",
+        "Sango",
+        "Teke"
+      ],
+      "population": 5244363,
+      "location": "Central Africa"
+    },
+    {
+      "country": "The Democratic Republic of the Congo",
+      "abbreviation": "CD",
+      "city": "Kinshasa",
+      "continent": "Africa",
+      "currency_code": "CDF",
+      "currency_name": "Franc Congolais",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Lingala",
+        "Kikongo",
+        "Swahili",
+        "Tshiluba"
+      ],
+      "population": 84068091,
+      "location": null
+    },
+    {
+      "country": "Cook Islands",
+      "abbreviation": "CK",
+      "city": "Avarua",
+      "continent": "Oceania",
+      "currency_code": "NZD",
+      "currency_name": "New Zealand Dollar",
+      "government": "Nonmetropolitan Territory of New Zealand",
+      "independence": null,
+      "languages": [
+        "English",
+        "Maori"
+      ],
+      "population": 17379,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Costa Rica",
+      "abbreviation": "CR",
+      "city": "San Jos",
+      "continent": "North America",
+      "currency_code": "CRC",
+      "currency_name": "Costa Rican Colon",
+      "government": "Republic",
+      "independence": 1821,
+      "languages": [
+        "Chibcha",
+        "Chinese",
+        "Creole English",
+        "Spanish"
+      ],
+      "population": 4999441,
+      "location": "Central America"
+    },
+    {
+      "country": "Ivory Coast",
+      "abbreviation": "CI",
+      "city": "Yamoussoukro",
+      "continent": "Africa",
+      "currency_code": "XOF",
+      "currency_name": "CFA Franc BCEAO",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Akan",
+        "Gur",
+        "Kru",
+        "Malinke",
+        "[South]Mande"
+      ],
+      "population": 25069229,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Croatia",
+      "abbreviation": "HR",
+      "city": "Zagreb",
+      "continent": "Europe",
+      "currency_code": "HRK",
+      "currency_name": "Croatian Kuna",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Serbo-Croatian",
+        "Slovene"
+      ],
+      "population": 4087843,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Cuba",
+      "abbreviation": "CU",
+      "city": "La Habana",
+      "continent": "North America",
+      "currency_code": "CUP",
+      "currency_name": "Cuban Peso",
+      "government": "Socialistic Republic",
+      "independence": 1902,
+      "languages": [
+        "Spanish"
+      ],
+      "population": 11338138,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Cyprus",
+      "abbreviation": "CY",
+      "city": "Nicosia",
+      "continent": "Asia",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Greek",
+        "Turkish"
+      ],
+      "population": 1189265,
+      "location": "Middle East"
+    },
+    {
+      "country": "Czech Republic",
+      "abbreviation": "CZ",
+      "city": "Praha",
+      "continent": "Europe",
+      "currency_code": "CZK",
+      "currency_name": null,
+      "government": "Republic",
+      "independence": 1993,
+      "languages": [
+        "Czech",
+        "German",
+        "Hungarian",
+        "Moravian",
+        "Polish",
+        "Romani",
+        "Silesiana",
+        "Slovak"
+      ],
+      "population": 10629928,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Denmark",
+      "abbreviation": "DK",
+      "city": "Copenhagen",
+      "continent": "Europe",
+      "currency_code": "DKK",
+      "currency_name": "Danish Krone",
+      "government": "Constitutional Monarchy",
+      "independence": 800,
+      "languages": [
+        "Arabic",
+        "Danish",
+        "English",
+        "German",
+        "Norwegian",
+        "Swedish",
+        "Turkish"
+      ],
+      "population": 5793636,
+      "location": "Nordic Countries"
+    },
+    {
+      "country": "Djibouti",
+      "abbreviation": "DJ",
+      "city": "Djibouti",
+      "continent": "Africa",
+      "currency_code": "DJF",
+      "currency_name": "Djibouti Franc",
+      "government": "Republic",
+      "independence": 1977,
+      "languages": [
+        "Afar",
+        "Arabic",
+        "Somali"
+      ],
+      "population": 958920,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Dominica",
+      "abbreviation": "DM",
+      "city": "Roseau",
+      "continent": "North America",
+      "currency_code": "XCD",
+      "currency_name": "East Caribbean Dollar",
+      "government": "Republic",
+      "independence": 1978,
+      "languages": [
+        "Creole English",
+        "Creole French"
+      ],
+      "population": 71625,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Dominican Republic",
+      "abbreviation": "DO",
+      "city": "Santo Domingo de Guzm",
+      "continent": "North America",
+      "currency_code": "DOP",
+      "currency_name": "Dominican Peso",
+      "government": "Republic",
+      "independence": 1844,
+      "languages": [
+        "Creole French",
+        "Spanish"
+      ],
+      "population": 10627165,
+      "location": "Caribbean"
+    },
+    {
+      "country": "East Timor",
+      "abbreviation": "TP",
+      "city": "Dili",
+      "continent": "Asia",
+      "currency_code": "USD",
+      "currency_name": null,
+      "government": "Administrated by the UN",
+      "independence": null,
+      "languages": [
+        "Portuguese",
+        "Sunda"
+      ],
+      "population": 1267972,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Ecuador",
+      "abbreviation": "EC",
+      "city": "Quito",
+      "continent": "South America",
+      "currency_code": "ECS",
+      "currency_name": "Ecuador Sucre",
+      "government": "Republic",
+      "independence": 1822,
+      "languages": [
+        "Ket\u00c2\u00ac\u00c3\u00b6ua",
+        "Spanish"
+      ],
+      "population": 17084357,
+      "location": "South America"
+    },
+    {
+      "country": "Egypt",
+      "abbreviation": "EG",
+      "city": "Cairo",
+      "continent": "Africa",
+      "currency_code": "EGP",
+      "currency_name": "Egyptian Pound",
+      "government": "Republic",
+      "independence": 1922,
+      "languages": [
+        "Arabic",
+        "Sinaberberi"
+      ],
+      "population": 98423595,
+      "location": "Northern Africa"
+    },
+    {
+      "country": "El Salvador",
+      "abbreviation": "SV",
+      "city": "San Salvador",
+      "continent": "North America",
+      "currency_code": "SVC",
+      "currency_name": "El Salvador Colon",
+      "government": "Republic",
+      "independence": 1841,
+      "languages": [
+        "Nahua",
+        "Spanish"
+      ],
+      "population": 6420744,
+      "location": "Central America"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "abbreviation": "GQ",
+      "city": "Malabo",
+      "continent": "Africa",
+      "currency_code": "XAF",
+      "currency_name": "CFA Franc BEAC",
+      "government": "Republic",
+      "independence": 1968,
+      "languages": [
+        "Bubi",
+        "Fang"
+      ],
+      "population": 1308974,
+      "location": "Central Africa"
+    },
+    {
+      "country": "Eritrea",
+      "abbreviation": "ER",
+      "city": "Asmara",
+      "continent": "Africa",
+      "currency_code": "ERN",
+      "currency_name": "Eritrean Nakfa",
+      "government": "Republic",
+      "independence": 1993,
+      "languages": [
+        "Afar",
+        "Bilin",
+        "Hadareb",
+        "Saho",
+        "Tigre",
+        "Tigrigna"
+      ],
+      "population": 6213972,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Estonia",
+      "abbreviation": "EE",
+      "city": "Tallinn",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Belorussian",
+        "Estonian",
+        "Finnish",
+        "Russian",
+        "Ukrainian"
+      ],
+      "population": 1321977,
+      "location": "Baltic Countries"
+    },
+    {
+      "country": "Ethiopia",
+      "abbreviation": "ET",
+      "city": "Addis Abeba",
+      "continent": "Africa",
+      "currency_code": "ETB",
+      "currency_name": "Ethiopian Birr",
+      "government": "Republic",
+      "independence": -1000,
+      "languages": [
+        "Amharic",
+        "Gurage",
+        "Oromo",
+        "Sidamo",
+        "Somali",
+        "Tigrigna",
+        "Walaita"
+      ],
+      "population": 109224559,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Falkland Islands",
+      "abbreviation": "FK",
+      "city": "Stanley",
+      "continent": "South America",
+      "currency_code": "FKP",
+      "currency_name": null,
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 2840,
+      "location": "South America"
+    },
+    {
+      "country": "Faroe Islands",
+      "abbreviation": "FO",
+      "city": "T\u00c3\u00b3rshavn",
+      "continent": "Europe",
+      "currency_code": "DKK",
+      "currency_name": " Danish Krone",
+      "government": "Part of Denmark",
+      "independence": null,
+      "languages": [
+        "Danish",
+        "Faroese"
+      ],
+      "population": 48497,
+      "location": "Nordic Countries"
+    },
+    {
+      "country": "Fiji Islands",
+      "abbreviation": "FJ",
+      "city": "Suva",
+      "continent": "Oceania",
+      "currency_code": "FJD",
+      "currency_name": null,
+      "government": "Republic",
+      "independence": 1970,
+      "languages": [
+        "Fijian",
+        "Hindi"
+      ],
+      "population": 883483,
+      "location": "Melanesia"
+    },
+    {
+      "country": "Finland",
+      "abbreviation": "FI",
+      "city": "Helsinki [Helsingfors]",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1917,
+      "languages": [
+        "Estonian",
+        "Finnish",
+        "Russian",
+        "Saame",
+        "Swedish"
+      ],
+      "population": 5515525,
+      "location": "Nordic Countries"
+    },
+    {
+      "country": "France",
+      "abbreviation": "FR",
+      "city": "Paris",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 843,
+      "languages": [
+        "Arabic",
+        "French",
+        "Italian",
+        "Portuguese",
+        "Spanish",
+        "Turkish"
+      ],
+      "population": 66977107,
+      "location": "Western Europe"
+    },
+    {
+      "country": "French Guiana",
+      "abbreviation": "GF",
+      "city": "Cayenne",
+      "continent": "South America",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Overseas Department of France",
+      "independence": null,
+      "languages": [
+        "Creole French",
+        "Indian Languages"
+      ],
+      "population": 290691,
+      "location": "South America"
+    },
+    {
+      "country": "French Polynesia",
+      "abbreviation": "PF",
+      "city": "Papeete",
+      "continent": "Oceania",
+      "currency_code": "XPF",
+      "currency_name": null,
+      "government": "Nonmetropolitan Territory of France",
+      "independence": null,
+      "languages": [
+        "Chinese",
+        "French",
+        "Tahitian"
+      ],
+      "population": 277679,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Gabon",
+      "abbreviation": "GA",
+      "city": "Libreville",
+      "continent": "Africa",
+      "currency_code": "XAF",
+      "currency_name": "CFA Franc BEAC",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Fang",
+        "Mbete",
+        "Mpongwe",
+        "Punu-sira-nzebi"
+      ],
+      "population": 2119275,
+      "location": "Central Africa"
+    },
+    {
+      "country": "Gambia",
+      "abbreviation": "GM",
+      "city": "Banjul",
+      "continent": "Africa",
+      "currency_code": "GMD",
+      "currency_name": "Gambian Dalasi",
+      "government": "Republic",
+      "independence": 1965,
+      "languages": [
+        "Diola",
+        "Ful",
+        "Malinke",
+        "Soninke",
+        "Wolof"
+      ],
+      "population": 2280102,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Georgia",
+      "abbreviation": "GE",
+      "city": "Tbilisi",
+      "continent": "Asia",
+      "currency_code": "GEL",
+      "currency_name": "Georgian Lari",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Abhyasi",
+        "Armenian",
+        "Azerbaijani",
+        "Georgiana",
+        "Osseetti",
+        "Russian"
+      ],
+      "population": 3726549,
+      "location": "Middle East"
+    },
+    {
+      "country": "Germany",
+      "abbreviation": "DE",
+      "city": "Berlin",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Federal Republic",
+      "independence": 1955,
+      "languages": [
+        "German",
+        "Greek",
+        "Italian",
+        "Polish",
+        "Southern Slavic Languages",
+        "Turkish"
+      ],
+      "population": 82905782,
+      "location": "Western Europe"
+    },
+    {
+      "country": "Ghana",
+      "abbreviation": "GH",
+      "city": "Accra",
+      "continent": "Africa",
+      "currency_code": "GHS",
+      "currency_name": "Ghanaian Cedi",
+      "government": "Republic",
+      "independence": 1957,
+      "languages": [
+        "Akan",
+        "Ewe",
+        "Ga-adangme",
+        "Gurma",
+        "Joruba",
+        "Mossi"
+      ],
+      "population": 29767108,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Gibraltar",
+      "abbreviation": "GI",
+      "city": "Gibraltar",
+      "continent": "Europe",
+      "currency_code": "GIP",
+      "currency_name": "Gibraltar Pound",
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "population": 33718,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Greece",
+      "abbreviation": "GR",
+      "city": "Athenai",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1830,
+      "languages": [
+        "Greek",
+        "Turkish"
+      ],
+      "population": 10731726,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Greenland",
+      "abbreviation": "GL",
+      "city": "Nuuk",
+      "continent": "North America",
+      "currency_code": "DKK",
+      "currency_name": "Danish Krone",
+      "government": "Part of Denmark",
+      "independence": null,
+      "languages": [
+        "Danish",
+        "Greenlandic"
+      ],
+      "population": 56025,
+      "location": "North America"
+    },
+    {
+      "country": "Grenada",
+      "abbreviation": "GD",
+      "city": "Saint George's",
+      "continent": "North America",
+      "currency_code": "XCD",
+      "currency_name": "East Carribean Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1974,
+      "languages": [
+        "Creole English"
+      ],
+      "population": 111454,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Guadeloupe",
+      "abbreviation": "GP",
+      "city": "Basse-Terre",
+      "continent": "North America",
+      "currency_code": "EUR",
+      "currency_name": null,
+      "government": "Overseas Department of France",
+      "independence": null,
+      "languages": [
+        "Creole French",
+        "French"
+      ],
+      "population": 395700,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Guam",
+      "abbreviation": "GU",
+      "city": "Aga",
+      "continent": "Oceania",
+      "currency_code": "USD",
+      "currency_name": null,
+      "government": "US Territory",
+      "independence": null,
+      "languages": [
+        "Chamorro",
+        "English",
+        "Japanese",
+        "Korean",
+        "Philippene Languages"
+      ],
+      "population": 165768,
+      "location": "Micronesia"
+    },
+    {
+      "country": "Guatemala",
+      "abbreviation": "GT",
+      "city": "Ciudad de Guatemala",
+      "continent": "North America",
+      "currency_code": "QTQ",
+      "currency_name": "Guatemalan Quetzal",
+      "government": "Republic",
+      "independence": 1821,
+      "languages": [
+        "Cakchiquel",
+        "Kekch\u00e2\u02c6\u0161\u00e2\u2030\u00a0",
+        "Mam",
+        "Quich\u00e2\u02c6\u0161\u00c2\u00a9",
+        "Spanish"
+      ],
+      "population": 17247807,
+      "location": "Central America"
+    },
+    {
+      "country": "Guinea",
+      "abbreviation": "GN",
+      "city": "Conakry",
+      "continent": "Africa",
+      "currency_code": "GNF",
+      "currency_name": "Guinea Franc",
+      "government": "Republic",
+      "independence": 1958,
+      "languages": [
+        "Ful",
+        "Kissi",
+        "Kpelle",
+        "Loma",
+        "Malinke",
+        "Susu",
+        "Yalunka"
+      ],
+      "population": 12414318,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Guinea-Bissau",
+      "abbreviation": "GW",
+      "city": "Bissau",
+      "continent": "Africa",
+      "currency_code": "CFA",
+      "currency_name": null,
+      "government": "Republic",
+      "independence": 1974,
+      "languages": [
+        "Balante",
+        "Crioulo",
+        "Ful",
+        "Malinke",
+        "Mandyako",
+        "Portuguese"
+      ],
+      "population": 1874309,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Guyana",
+      "abbreviation": "GY",
+      "city": "Georgetown",
+      "continent": "South America",
+      "currency_code": "GYD",
+      "currency_name": "Guyana Dollar",
+      "government": "Republic",
+      "independence": 1966,
+      "languages": [
+        "Arawakan",
+        "Caribbean",
+        "Creole English"
+      ],
+      "population": 779004,
+      "location": "South America"
+    },
+    {
+      "country": "Haiti",
+      "abbreviation": "HT",
+      "city": "Port-au-Prince",
+      "continent": "North America",
+      "currency_code": "HTG",
+      "currency_name": "Haitian Gourde",
+      "government": "Republic",
+      "independence": 1804,
+      "languages": [
+        "French",
+        "Haiti Creole"
+      ],
+      "population": 11123176,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Holy See (Vatican City State)",
+      "abbreviation": "VA",
+      "city": "Citt",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": null,
+      "government": "Independent Church State",
+      "independence": 1929,
+      "languages": [
+        "Italian"
+      ],
+      "population": 825,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Honduras",
+      "abbreviation": "HN",
+      "city": "Tegucigalpa",
+      "continent": "North America",
+      "currency_code": "HNL",
+      "currency_name": "Honduran Lempira",
+      "government": "Republic",
+      "independence": 1838,
+      "languages": [
+        "Creole English",
+        "Garifuna",
+        "Miskito",
+        "Spanish"
+      ],
+      "population": 9587522,
+      "location": "Central America"
+    },
+    {
+      "country": "Hong Kong",
+      "abbreviation": "HK",
+      "city": "Victoria",
+      "continent": "Asia",
+      "currency_code": "HKD",
+      "currency_name": "Hong Kong Dollar",
+      "government": "Special Administrative Region of China",
+      "independence": null,
+      "languages": [
+        "Canton Chinese",
+        "Chiu chau",
+        "English",
+        "Fukien",
+        "Hakka"
+      ],
+      "population": 7451000,
+      "location": "Eastern Asia"
+    },
+    {
+      "country": "Hungary",
+      "abbreviation": "HU",
+      "city": "Budapest",
+      "continent": "Europe",
+      "currency_code": "HUF",
+      "currency_name": "Hungarian Forint",
+      "government": "Republic",
+      "independence": 1918,
+      "languages": [
+        "German",
+        "Hungarian",
+        "Romani",
+        "Romanian",
+        "Serbo-Croatian",
+        "Slovak"
+      ],
+      "population": 9775564,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Iceland",
+      "abbreviation": "IS",
+      "city": "Reykjav",
+      "continent": "Europe",
+      "currency_code": "ISK",
+      "currency_name": "Iceland Krona",
+      "government": "Republic",
+      "independence": 1944,
+      "languages": [
+        "English",
+        "Icelandic"
+      ],
+      "population": 352721,
+      "location": "Nordic Countries"
+    },
+    {
+      "country": "India",
+      "abbreviation": "IN",
+      "city": "New Delhi",
+      "continent": "Asia",
+      "currency_code": "INR",
+      "currency_name": "Indian Rupee",
+      "government": "Federal Republic",
+      "independence": 1947,
+      "languages": [
+        "Asami",
+        "Bengali",
+        "Gujarati",
+        "Hindi",
+        "Kannada",
+        "Malayalam",
+        "Marathi",
+        "Odia",
+        "Punjabi",
+        "Tamil",
+        "Telugu",
+        "Urdu",
+        "Sanskrit",
+        "English",
+        "Konkani",
+        "Nepali",
+        "Bodo",
+        "Kashmiri",
+        "Maithili",
+        "Santali",
+        "Sindhi"
+      ],
+      "population": 1352617328,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Indonesia",
+      "abbreviation": "ID",
+      "city": "Jakarta",
+      "continent": "Asia",
+      "currency_code": "IDR",
+      "currency_name": "Indonesian Rupiah",
+      "government": "Republic",
+      "independence": 1945,
+      "languages": [
+        "Bahasa",
+        "Bali",
+        "Banja",
+        "Batakki",
+        "Bugi",
+        "Javanese",
+        "Madura",
+        "Malay",
+        "Minangkabau",
+        "Sunda"
+      ],
+      "population": 267663435,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Iran",
+      "abbreviation": "IR",
+      "city": "Tehran",
+      "continent": "Asia",
+      "currency_code": "IRR",
+      "currency_name": "Iranian Rial",
+      "government": "Islamic Republic",
+      "independence": 1906,
+      "languages": [
+        "Arabic",
+        "Azerbaijani",
+        "Bakhtyari",
+        "Balochi",
+        "Gilaki",
+        "Kurdish",
+        "Luri",
+        "Mazandarani",
+        "Persian",
+        "Turkmenian"
+      ],
+      "population": 81800269,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Iraq",
+      "abbreviation": "IQ",
+      "city": "Baghdad",
+      "continent": "Asia",
+      "currency_code": "IQD",
+      "currency_name": "Iraqi Dinar",
+      "government": "Republic",
+      "independence": 1932,
+      "languages": [
+        "Arabic",
+        "Assyrian",
+        "Azerbaijani",
+        "Kurdish",
+        "Persian"
+      ],
+      "population": 38433600,
+      "location": "Middle East"
+    },
+    {
+      "country": "Ireland",
+      "abbreviation": "IE",
+      "city": "Dublin",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1921,
+      "languages": [
+        "English",
+        "Irish"
+      ],
+      "population": 4867309,
+      "location": "British Isles"
+    },
+    {
+      "country": "Israel",
+      "abbreviation": "IL",
+      "city": "Jerusalem",
+      "continent": "Asia",
+      "currency_code": "ILS",
+      "currency_name": "Israeli New Shekel",
+      "government": "Republic",
+      "independence": 1948,
+      "languages": [
+        "Arabic",
+        "Hebrew",
+        "Russian"
+      ],
+      "population": 8882800,
+      "location": "Middle East"
+    },
+    {
+      "country": "Italy",
+      "abbreviation": "IT",
+      "city": "Roma",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1861,
+      "languages": [
+        "Albaniana",
+        "French",
+        "Friuli",
+        "German",
+        "Italian",
+        "Romani",
+        "Sardinian",
+        "Slovene"
+      ],
+      "population": 60421760,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Jamaica",
+      "abbreviation": "JM",
+      "city": "Kingston",
+      "continent": "North America",
+      "currency_code": "JMD",
+      "currency_name": "Jamaican Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1962,
+      "languages": [
+        "Creole English",
+        "Hindi"
+      ],
+      "population": 2934855,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Japan",
+      "abbreviation": "JP",
+      "city": "Tokyo",
+      "continent": "Asia",
+      "currency_code": "JPY",
+      "currency_name": "Japanese Yen",
+      "government": "Constitutional Monarchy",
+      "independence": -660,
+      "languages": [
+        "Ainu",
+        "Chinese",
+        "English",
+        "Japanese",
+        "Korean",
+        "Philippene Languages"
+      ],
+      "population": 126529100,
+      "location": "Eastern Asia"
+    },
+    {
+      "country": "Jordan",
+      "abbreviation": "JO",
+      "city": "Amman",
+      "continent": "Asia",
+      "currency_code": "JOD",
+      "currency_name": "Jordanian Dinar",
+      "government": "Constitutional Monarchy",
+      "independence": 1946,
+      "languages": [
+        "Arabic",
+        "Armenian",
+        "Circassian"
+      ],
+      "population": 9956011,
+      "location": "Middle East"
+    },
+    {
+      "country": "Kazakhstan",
+      "abbreviation": "KZ",
+      "city": "Astana",
+      "continent": "Asia",
+      "currency_code": "KZT",
+      "currency_name": null,
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "German",
+        "Kazakh",
+        "Russian",
+        "Tatar",
+        "Ukrainian",
+        "Uzbek"
+      ],
+      "population": 18272430,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Kenya",
+      "abbreviation": "KE",
+      "city": "Nairobi",
+      "continent": "Africa",
+      "currency_code": "KES",
+      "currency_name": "Kenyan Shilling",
+      "government": "Republic",
+      "independence": 1963,
+      "languages": [
+        "Gusii",
+        "Kalenjin",
+        "Kamba",
+        "Kikuyu",
+        "Luhya",
+        "Luo",
+        "Masai",
+        "Meru",
+        "Nyika",
+        "Turkana"
+      ],
+      "population": 51393010,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Kiribati",
+      "abbreviation": "KI",
+      "city": "Bairiki",
+      "continent": "Oceania",
+      "currency_code": "AUD",
+      "currency_name": "Australian Dollar",
+      "government": "Republic",
+      "independence": 1979,
+      "languages": [
+        "Kiribati",
+        "Tuvalu"
+      ],
+      "population": 115847,
+      "location": "Micronesia"
+    },
+    {
+      "country": "Kuwait",
+      "abbreviation": "KW",
+      "city": "Kuwait",
+      "continent": "Asia",
+      "currency_code": "KWD",
+      "currency_name": "Kuwaiti Dinar",
+      "government": "Constitutional Monarchy (Emirate)",
+      "independence": 1961,
+      "languages": [
+        "Arabic",
+        "English"
+      ],
+      "population": 4137309,
+      "location": "Middle East"
+    },
+    {
+      "country": "Kyrgyzstan",
+      "abbreviation": "KG",
+      "city": "Bishkek",
+      "continent": "Asia",
+      "currency_code": "KGS",
+      "currency_name": "Som",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Kazakh",
+        "Kirgiz",
+        "Russian",
+        "Tadzhik",
+        "Tatar",
+        "Ukrainian",
+        "Uzbek"
+      ],
+      "population": 6322800,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Laos",
+      "abbreviation": "LA",
+      "city": "Vientiane",
+      "continent": "Asia",
+      "currency_code": "LAK",
+      "currency_name": "Lao Kip",
+      "government": "Republic",
+      "independence": 1953,
+      "languages": [
+        "Lao",
+        "Lao-Soung",
+        "Mon-khmer",
+        "Thai"
+      ],
+      "population": 7061507,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Latvia",
+      "abbreviation": "LV",
+      "city": "Riga",
+      "continent": "Europe",
+      "currency_code": "LVL",
+      "currency_name": "Latvian Lats",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Belorussian",
+        "Latvian",
+        "Lithuanian",
+        "Polish",
+        "Russian",
+        "Ukrainian"
+      ],
+      "population": 1927174,
+      "location": "Baltic Countries"
+    },
+    {
+      "country": "Lebanon",
+      "abbreviation": "LB",
+      "city": "Beirut",
+      "continent": "Asia",
+      "currency_code": "LBP",
+      "currency_name": "Lebanese Pound",
+      "government": "Republic",
+      "independence": 1941,
+      "languages": [
+        "Arabic",
+        "Armenian",
+        "French"
+      ],
+      "population": 6848925,
+      "location": "Middle East"
+    },
+    {
+      "country": "Lesotho",
+      "abbreviation": "LS",
+      "city": "Maseru",
+      "continent": "Africa",
+      "currency_code": "LSL",
+      "currency_name": "Lesotho Loti",
+      "government": "Constitutional Monarchy",
+      "independence": 1966,
+      "languages": [
+        "English",
+        "Sotho",
+        "Zulu"
+      ],
+      "population": 2108132,
+      "location": "Southern Africa"
+    },
+    {
+      "country": "Liberia",
+      "abbreviation": "LR",
+      "city": "Monrovia",
+      "continent": "Africa",
+      "currency_code": "LRD",
+      "currency_name": "Liberian Dollar",
+      "government": "Republic",
+      "independence": 1847,
+      "languages": [
+        "Bassa",
+        "Gio",
+        "Grebo",
+        "Kpelle",
+        "Kru",
+        "Loma",
+        "Malinke",
+        "Mano"
+      ],
+      "population": 4818977,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Libyan Arab Jamahiriya",
+      "abbreviation": "LY",
+      "city": "Tripoli",
+      "continent": "Africa",
+      "currency_code": "LYD",
+      "currency_name": null,
+      "government": "Socialistic State",
+      "independence": 1951,
+      "languages": [
+        "Arabic",
+        "Berberi"
+      ],
+      "population": 6678567,
+      "location": "Northern Africa"
+    },
+    {
+      "country": "Liechtenstein",
+      "abbreviation": "LI",
+      "city": "Vaduz",
+      "continent": "Europe",
+      "currency_code": "CHF",
+      "currency_name": "Swiss Franc",
+      "government": "Constitutional Monarchy",
+      "independence": 1806,
+      "languages": [
+        "German",
+        "Italian",
+        "Turkish"
+      ],
+      "population": 37910,
+      "location": "Western Europe"
+    },
+    {
+      "country": "Lithuania",
+      "abbreviation": "LT",
+      "city": "Vilnius",
+      "continent": "Europe",
+      "currency_code": "LTL",
+      "currency_name": "Lithuanian Litas",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Belorussian",
+        "Lithuanian",
+        "Polish",
+        "Russian",
+        "Ukrainian"
+      ],
+      "population": 2801543,
+      "location": "Baltic Countries"
+    },
+    {
+      "country": "Luxembourg",
+      "abbreviation": "LU",
+      "city": "Luxembourg [Luxemburg/L",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Constitutional Monarchy",
+      "independence": 1867,
+      "languages": [
+        "French",
+        "German",
+        "Italian",
+        "Luxembourgish",
+        "Portuguese"
+      ],
+      "population": 607950,
+      "location": "Western Europe"
+    },
+    {
+      "country": "Macao",
+      "abbreviation": "MO",
+      "city": "Macao",
+      "continent": "Asia",
+      "currency_code": "MOP",
+      "currency_name": null,
+      "government": "Special Administrative Region of China",
+      "independence": null,
+      "languages": [
+        "Canton Chinese",
+        "English",
+        "Mandarin Chinese",
+        "Portuguese"
+      ],
+      "population": 631636,
+      "location": "Eastern Asia"
+    },
+    {
+      "country": "North Macedonia",
+      "abbreviation": "MK",
+      "city": "Skopje",
+      "continent": "Europe",
+      "currency_code": "MKD",
+      "currency_name": "Denar",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Albaniana",
+        "Macedonian",
+        "Romani",
+        "Serbo-Croatian",
+        "Turkish"
+      ],
+      "population": 2084367,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Madagascar",
+      "abbreviation": "MG",
+      "city": "Antananarivo",
+      "continent": "Africa",
+      "currency_code": "MGF",
+      "currency_name": "Malagasy Franc",
+      "government": "Federal Republic",
+      "independence": 1960,
+      "languages": [
+        "French",
+        "Malagasy"
+      ],
+      "population": 26262368,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Malawi",
+      "abbreviation": "MW",
+      "city": "Lilongwe",
+      "continent": "Africa",
+      "currency_code": "MWK",
+      "currency_name": "Malawi Kwacha",
+      "government": "Republic",
+      "independence": 1964,
+      "languages": [
+        "Chichewa",
+        "Lomwe",
+        "Ngoni",
+        "Yao"
+      ],
+      "population": 18143315,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Malaysia",
+      "abbreviation": "MY",
+      "city": "Kuala Lumpur",
+      "continent": "Asia",
+      "currency_code": "MYR",
+      "currency_name": "Malaysian Ringgit",
+      "government": "Constitutional Monarchy",
+      "independence": 1957,
+      "languages": [
+        "Chinese",
+        "Dusun",
+        "English",
+        "Iban",
+        "Malay",
+        "Tamil"
+      ],
+      "population": 31528585,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Maldives",
+      "abbreviation": "MV",
+      "city": "Male",
+      "continent": "Asia",
+      "currency_code": "MVR",
+      "currency_name": "Maldive Rufiyaa",
+      "government": "Republic",
+      "independence": 1965,
+      "languages": [
+        "Dhivehi",
+        "English"
+      ],
+      "population": 515696,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Mali",
+      "abbreviation": "ML",
+      "city": "Bamako",
+      "continent": "Africa",
+      "currency_code": "XOF",
+      "currency_name": "CFA Franc BCEAO",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Bambara",
+        "Ful",
+        "Senufo and Minianka",
+        "Songhai",
+        "Soninke",
+        "Tamashek"
+      ],
+      "population": 19077690,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Malta",
+      "abbreviation": "MT",
+      "city": "Valletta",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1964,
+      "languages": [
+        "English",
+        "Maltese"
+      ],
+      "population": 484630,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Marshall Islands",
+      "abbreviation": "MH",
+      "city": "Dalap-Uliga-Darrit",
+      "continent": "Oceania",
+      "currency_code": "USD",
+      "currency_name": "US Dollar",
+      "government": "Republic",
+      "independence": 1990,
+      "languages": [
+        "English",
+        "Marshallese"
+      ],
+      "population": 58413,
+      "location": "Micronesia"
+    },
+    {
+      "country": "Martinique",
+      "abbreviation": "MQ",
+      "city": "Fort-de-France",
+      "continent": "North America",
+      "currency_code": "EUR",
+      "currency_name": null,
+      "government": "Overseas Department of France",
+      "independence": null,
+      "languages": [
+        "Creole French",
+        "French"
+      ],
+      "population": 376480,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Mauritania",
+      "abbreviation": "MR",
+      "city": "Nouakchott",
+      "continent": "Africa",
+      "currency_code": "MRO",
+      "currency_name": "Mauritanian Ouguiya",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Ful",
+        "Hassaniya",
+        "Soninke",
+        "Tukulor",
+        "Wolof",
+        "Zenaga"
+      ],
+      "population": 4403319,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Mauritius",
+      "abbreviation": "MU",
+      "city": "Port-Louis",
+      "continent": "Africa",
+      "currency_code": "MUR",
+      "currency_name": "Mauritius Rupee",
+      "government": "Republic",
+      "independence": 1968,
+      "languages": [
+        "Bhojpuri",
+        "Creole French",
+        "French",
+        "Hindi",
+        "Marathi",
+        "Tamil"
+      ],
+      "population": 1265303,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Mayotte",
+      "abbreviation": "YT",
+      "city": "Mamoutzou",
+      "continent": "Africa",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Territorial Collectivity of France",
+      "independence": null,
+      "languages": [
+        "French",
+        "Mahor\u00e2\u02c6\u0161\u00c2\u00a9",
+        "Malagasy"
+      ],
+      "population": 270372,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Mexico",
+      "abbreviation": "MX",
+      "city": "Ciudad de M",
+      "continent": "North America",
+      "currency_code": "MXN",
+      "currency_name": "Mexican Nuevo Peso",
+      "government": "Federal Republic",
+      "independence": 1810,
+      "languages": [
+        "Mixtec",
+        "N\u00e2\u02c6\u0161\u00c2\u00b0huatl",
+        "Otom\u00e2\u02c6\u0161\u00e2\u2030\u00a0",
+        "Spanish",
+        "Yucatec",
+        "Zapotec"
+      ],
+      "population": 126190788,
+      "location": "Central America"
+    },
+    {
+      "country": "Micronesia, Federated States of",
+      "abbreviation": "FM",
+      "city": "Palikir",
+      "continent": "Oceania",
+      "currency_code": "USD",
+      "currency_name": null,
+      "government": "Federal Republic",
+      "independence": 1990,
+      "languages": [
+        "Kosrean",
+        "Mortlock",
+        "Pohnpei",
+        "Trukese",
+        "Wolea",
+        "Yap"
+      ],
+      "population": 112640,
+      "location": "Micronesia"
+    },
+    {
+      "country": "Moldova",
+      "abbreviation": "MD",
+      "city": "Chisinau",
+      "continent": "Europe",
+      "currency_code": "MDL",
+      "currency_name": "Moldovan Leu",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Bulgariana",
+        "Gagauzi",
+        "Romanian",
+        "Russian",
+        "Ukrainian"
+      ],
+      "population": 2706049,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Monaco",
+      "abbreviation": "MC",
+      "city": "Monaco-Ville",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": null,
+      "government": "Constitutional Monarchy",
+      "independence": 1861,
+      "languages": [
+        "English",
+        "French",
+        "Italian",
+        "Monegasque"
+      ],
+      "population": 38682,
+      "location": "Western Europe"
+    },
+    {
+      "country": "Mongolia",
+      "abbreviation": "MN",
+      "city": "Ulan Bator",
+      "continent": "Asia",
+      "currency_code": "MNT",
+      "currency_name": "Mongolian Tugrik",
+      "government": "Republic",
+      "independence": 1921,
+      "languages": [
+        "Bajad",
+        "Buryat",
+        "Dariganga",
+        "Dorbet",
+        "Kazakh",
+        "Mongolian"
+      ],
+      "population": 3170208,
+      "location": "Eastern Asia"
+    },
+    {
+      "country": "Montserrat",
+      "abbreviation": "MS",
+      "city": "Plymouth",
+      "continent": "North America",
+      "currency_code": "XCD",
+      "currency_name": "East Caribbean Dollar",
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 5900,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Morocco",
+      "abbreviation": "MA",
+      "city": "Rabat",
+      "continent": "Africa",
+      "currency_code": "MAD",
+      "currency_name": "Moroccan Dirham",
+      "government": "Constitutional Monarchy",
+      "independence": 1956,
+      "languages": [
+        "Arabic",
+        "Berberi"
+      ],
+      "population": 36029138,
+      "location": "Northern Africa"
+    },
+    {
+      "country": "Mozambique",
+      "abbreviation": "MZ",
+      "city": "Maputo",
+      "continent": "Africa",
+      "currency_code": "MZN",
+      "currency_name": "Mozambique Metical",
+      "government": "Republic",
+      "independence": 1975,
+      "languages": [
+        "Chuabo",
+        "Lomwe",
+        "Makua",
+        "Marendje",
+        "Nyanja",
+        "Ronga",
+        "Sena",
+        "Shona",
+        "Tsonga",
+        "Tswa"
+      ],
+      "population": 29495962,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Myanmar",
+      "abbreviation": "MM",
+      "city": "Rangoon (Yangon)",
+      "continent": "Asia",
+      "currency_code": "MMR",
+      "currency_name": "Myanmar Kyat",
+      "government": "Republic",
+      "independence": 1948,
+      "languages": [
+        "Burmese",
+        "Chin",
+        "Kachin",
+        "Karen",
+        "Kayah",
+        "Mon",
+        "Rakhine",
+        "Shan"
+      ],
+      "population": 53708395,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Namibia",
+      "abbreviation": "NA",
+      "city": "Windhoek",
+      "continent": "Africa",
+      "currency_code": "NAD",
+      "currency_name": "Namibian Dollar",
+      "government": "Republic",
+      "independence": 1990,
+      "languages": [
+        "Afrikaans",
+        "Caprivi",
+        "German",
+        "Herero",
+        "Kavango",
+        "Nama",
+        "Ovambo",
+        "San"
+      ],
+      "population": 2448255,
+      "location": "Southern Africa"
+    },
+    {
+      "country": "Nauru",
+      "abbreviation": "NR",
+      "city": "Yaren",
+      "continent": "Oceania",
+      "currency_code": "AUD",
+      "currency_name": "Australian Dollar",
+      "government": "Republic",
+      "independence": 1968,
+      "languages": [
+        "Chinese",
+        "English",
+        "Kiribati",
+        "Nauru",
+        "Tuvalu"
+      ],
+      "population": 12704,
+      "location": "Micronesia"
+    },
+    {
+      "country": "Nepal",
+      "abbreviation": "NP",
+      "city": "Kathmandu",
+      "continent": "Asia",
+      "currency_code": "NPR",
+      "currency_name": "Nepalese Rupee",
+      "government": "Federal parliamentary republic",
+      "independence": 1769,
+      "languages": [
+        "Bhojpuri",
+        "Hindi",
+        "Maithili",
+        "Nepali",
+        "Newari",
+        "Tamang",
+        "Tharu"
+      ],
+      "population": 28087871,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Netherlands",
+      "abbreviation": "NL",
+      "city": "Amsterdam",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Constitutional Monarchy",
+      "independence": 1581,
+      "languages": [
+        "Arabic",
+        "Dutch",
+        "Fries",
+        "Turkish"
+      ],
+      "population": 17231624,
+      "location": "Western Europe"
+    },
+    {
+      "country": "Netherlands Antilles",
+      "abbreviation": "AN",
+      "city": "Willemstad",
+      "continent": "North America",
+      "currency_code": "ANG",
+      "currency_name": "Netherlands Antillean Guilder",
+      "government": "Nonmetropolitan Territory of The Netherlands",
+      "independence": null,
+      "languages": [
+        "Dutch",
+        "English",
+        "Papiamento"
+      ],
+      "population": 227049,
+      "location": "Caribbean"
+    },
+    {
+      "country": "New Caledonia",
+      "abbreviation": "NC",
+      "city": "Noum",
+      "continent": "Oceania",
+      "currency_code": "XPF",
+      "currency_name": null,
+      "government": "Nonmetropolitan Territory of France",
+      "independence": null,
+      "languages": [
+        "French",
+        "Malenasian Languages",
+        "Polynesian Languages"
+      ],
+      "population": 284060,
+      "location": "Melanesia"
+    },
+    {
+      "country": "New Zealand",
+      "abbreviation": "NZ",
+      "city": "Wellington",
+      "continent": "Oceania",
+      "currency_code": "NZD",
+      "currency_name": "New Zealand Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1907,
+      "languages": [
+        "English",
+        "Maori"
+      ],
+      "population": 4841000,
+      "location": "Australia and New Zealand"
+    },
+    {
+      "country": "Nicaragua",
+      "abbreviation": "NI",
+      "city": "Managua",
+      "continent": "North America",
+      "currency_code": "NIO",
+      "currency_name": "Nicaraguan Cordoba Oro",
+      "government": "Republic",
+      "independence": 1838,
+      "languages": [
+        "Creole English",
+        "Miskito",
+        "Spanish",
+        "Sumo"
+      ],
+      "population": 6465513,
+      "location": "Central America"
+    },
+    {
+      "country": "Niger",
+      "abbreviation": "NE",
+      "city": "Niamey",
+      "continent": "Africa",
+      "currency_code": "XOF",
+      "currency_name": "CFA Franc BCEAO",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Ful",
+        "Hausa",
+        "Kanuri",
+        "Songhai-zerma",
+        "Tamashek"
+      ],
+      "population": 22442948,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Nigeria",
+      "abbreviation": "NG",
+      "city": "Abuja",
+      "continent": "Africa",
+      "currency_code": "NGN",
+      "currency_name": "Nigerian Naira",
+      "government": "Federal Republic",
+      "independence": 1960,
+      "languages": [
+        "Bura",
+        "Edo",
+        "Ful",
+        "Hausa",
+        "Ibibio",
+        "Ibo",
+        "Ijo",
+        "Joruba",
+        "Kanuri",
+        "Tiv"
+      ],
+      "population": 195874740,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Niue",
+      "abbreviation": "NU",
+      "city": "Alofi",
+      "continent": "Oceania",
+      "currency_code": "NZD",
+      "currency_name": "New Zealand Dollar",
+      "government": "Nonmetropolitan Territory of New Zealand",
+      "independence": null,
+      "languages": [
+        "English",
+        "Niue"
+      ],
+      "population": 1624,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Norfolk Island",
+      "abbreviation": "NF",
+      "city": "Kingston",
+      "continent": "Oceania",
+      "currency_code": "AUD",
+      "currency_name": "Australian Dollar",
+      "government": "Territory of Australia",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 2169,
+      "location": "Australia and New Zealand"
+    },
+    {
+      "country": "North Korea",
+      "abbreviation": "KP",
+      "city": "Pyongyang",
+      "continent": "Asia",
+      "currency_code": "KPW",
+      "currency_name": "North Korean Won",
+      "government": "Socialistic Republic",
+      "independence": 1948,
+      "languages": [
+        "Chinese",
+        "Korean"
+      ],
+      "population": 25549819,
+      "location": "Eastern Asia"
+    },
+    {
+      "country": "Northern Mariana Islands",
+      "abbreviation": "MP",
+      "city": "Garapan",
+      "continent": "Oceania",
+      "currency_code": "USD",
+      "currency_name": "US Dollar",
+      "government": "Commonwealth of the US",
+      "independence": null,
+      "languages": [
+        "Carolinian",
+        "Chamorro",
+        "Chinese",
+        "English",
+        "Korean",
+        "Philippene Languages"
+      ],
+      "population": 56882,
+      "location": "Micronesia"
+    },
+    {
+      "country": "Norway",
+      "abbreviation": "NO",
+      "city": "Oslo",
+      "continent": "Europe",
+      "currency_code": "NOK",
+      "currency_name": "Norwegian Krone",
+      "government": "Constitutional Monarchy",
+      "independence": 1905,
+      "languages": [
+        "Danish",
+        "English",
+        "Norwegian",
+        "Saame",
+        "Swedish"
+      ],
+      "population": 5311916,
+      "location": "Nordic Countries"
+    },
+    {
+      "country": "Oman",
+      "abbreviation": "OM",
+      "city": "Masqat",
+      "continent": "Asia",
+      "currency_code": "OMR",
+      "currency_name": "Omani Rial",
+      "government": "Monarchy (Sultanate)",
+      "independence": 1951,
+      "languages": [
+        "Arabic",
+        "Balochi"
+      ],
+      "population": 4829483,
+      "location": "Middle East"
+    },
+    {
+      "country": "Pakistan",
+      "abbreviation": "PK",
+      "city": "Islamabad",
+      "continent": "Asia",
+      "currency_code": "PKR",
+      "currency_name": "Pakistan Rupee",
+      "government": "Republic",
+      "independence": 1947,
+      "languages": [
+        "Balochi",
+        "Brahui",
+        "Hindko",
+        "Pashto",
+        "Punjabi",
+        "Saraiki",
+        "Sindhi",
+        "Urdu"
+      ],
+      "population": 212215030,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Palau",
+      "abbreviation": "PW",
+      "city": "Koror",
+      "continent": "Oceania",
+      "currency_code": "USD",
+      "currency_name": "US Dollar",
+      "government": "Republic",
+      "independence": 1994,
+      "languages": [
+        "Chinese",
+        "English",
+        "Palau",
+        "Philippene Languages"
+      ],
+      "population": 17907,
+      "location": "Micronesia"
+    },
+    {
+      "country": "Palestine",
+      "abbreviation": "PS",
+      "city": "Gaza",
+      "continent": "Asia",
+      "currency_code": null,
+      "currency_name": null,
+      "government": "Autonomous Area",
+      "independence": null,
+      "languages": [
+        "Arabic",
+        "Hebrew"
+      ],
+      "population": 4569087,
+      "location": "Middle East"
+    },
+    {
+      "country": "Panama",
+      "abbreviation": "PA",
+      "city": "Ciudad de Panam",
+      "continent": "North America",
+      "currency_code": "PAB",
+      "currency_name": "Panamanian Balboa",
+      "government": "Republic",
+      "independence": 1903,
+      "languages": [
+        "Arabic",
+        "Creole English",
+        "Cuna",
+        "Embera",
+        "Guaym\u00e2\u02c6\u0161\u00e2\u2030\u00a0",
+        "Spanish"
+      ],
+      "population": 4176873,
+      "location": "Central America"
+    },
+    {
+      "country": "Papua New Guinea",
+      "abbreviation": "PG",
+      "city": "Port Moresby",
+      "continent": "Oceania",
+      "currency_code": "PGK",
+      "currency_name": "Papua New Guinea Kina",
+      "government": "Constitutional Monarchy",
+      "independence": 1975,
+      "languages": [
+        "Malenasian Languages",
+        "Papuan Languages"
+      ],
+      "population": 8606316,
+      "location": "Melanesia"
+    },
+    {
+      "country": "Paraguay",
+      "abbreviation": "PY",
+      "city": "Asunci",
+      "continent": "South America",
+      "currency_code": "PYG",
+      "currency_name": "Paraguay Guarani",
+      "government": "Republic",
+      "independence": 1811,
+      "languages": [
+        "German",
+        "Guaran\u00e2\u02c6\u0161\u00e2\u2030\u00a0",
+        "Portuguese",
+        "Spanish"
+      ],
+      "population": 6956071,
+      "location": "South America"
+    },
+    {
+      "country": "Peru",
+      "abbreviation": "PE",
+      "city": "Lima",
+      "continent": "South America",
+      "currency_code": "PEN",
+      "currency_name": "Peruvian Nuevo Sol",
+      "government": "Republic",
+      "independence": 1821,
+      "languages": [
+        "Aimar\u00e2\u02c6\u0161\u00c2\u00b0",
+        "Ket\u00c2\u00ac\u00c3\u00b6ua",
+        "Spanish"
+      ],
+      "population": 31989256,
+      "location": "South America"
+    },
+    {
+      "country": "Philippines",
+      "abbreviation": "PH",
+      "city": "Manila",
+      "continent": "Asia",
+      "currency_code": "PHP",
+      "currency_name": "Philippine Peso",
+      "government": "Republic",
+      "independence": 1946,
+      "languages": [
+        "Bicol",
+        "Cebuano",
+        "Hiligaynon",
+        "Ilocano",
+        "Maguindanao",
+        "Maranao",
+        "Pampango",
+        "Pangasinan",
+        "Pilipino",
+        "Waray-waray"
+      ],
+      "population": 106651922,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Pitcairn",
+      "abbreviation": "PN",
+      "city": "Adamstown",
+      "continent": "Oceania",
+      "currency_code": "NZD",
+      "currency_name": null,
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "Pitcairnese"
+      ],
+      "population": 67,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Poland",
+      "abbreviation": "PL",
+      "city": "Warszawa",
+      "continent": "Europe",
+      "currency_code": "PLN",
+      "currency_name": "Polish Zloty",
+      "government": "Republic",
+      "independence": 1918,
+      "languages": [
+        "Belorussian",
+        "German",
+        "Polish",
+        "Ukrainian"
+      ],
+      "population": 37974750,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Portugal",
+      "abbreviation": "PT",
+      "city": "Lisboa",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1143,
+      "languages": [
+        "Portuguese"
+      ],
+      "population": 10283822,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Puerto Rico",
+      "abbreviation": "PR",
+      "city": "San Juan",
+      "continent": "North America",
+      "currency_code": "USD",
+      "currency_name": "US Dollar",
+      "government": "Commonwealth of the US",
+      "independence": null,
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "population": 3195153,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Qatar",
+      "abbreviation": "QA",
+      "city": "Doha",
+      "continent": "Asia",
+      "currency_code": "QAR",
+      "currency_name": "Qatari Rial",
+      "government": "Monarchy",
+      "independence": 1971,
+      "languages": [
+        "Arabic",
+        "Urdu"
+      ],
+      "population": 2781677,
+      "location": "Middle East"
+    },
+    {
+      "country": "Reunion",
+      "abbreviation": "RE",
+      "city": "Saint-Denis",
+      "continent": "Africa",
+      "currency_code": "EUR",
+      "currency_name": null,
+      "government": "Overseas Department of France",
+      "independence": null,
+      "languages": [
+        "Chinese",
+        "Comorian",
+        "Creole French",
+        "Malagasy",
+        "Tamil"
+      ],
+      "population": 859959,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Romania",
+      "abbreviation": "RO",
+      "city": "Bucuresti",
+      "continent": "Europe",
+      "currency_code": "RON",
+      "currency_name": "Romanian New Leu",
+      "government": "Republic",
+      "independence": 1878,
+      "languages": [
+        "German",
+        "Hungarian",
+        "Romani",
+        "Romanian",
+        "Serbo-Croatian",
+        "Ukrainian"
+      ],
+      "population": 19466145,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Russian Federation",
+      "abbreviation": "RU",
+      "city": "Moscow",
+      "continent": "Europe",
+      "currency_code": "RUB",
+      "currency_name": null,
+      "government": "Federal Republic",
+      "independence": 1991,
+      "languages": [
+        "Avarian",
+        "Bashkir",
+        "Belorussian",
+        "Chechen",
+        "Chuvash",
+        "Kazakh",
+        "Mari",
+        "Mordva",
+        "Russian",
+        "Tatar",
+        "Udmur",
+        "Ukrainian"
+      ],
+      "population": 144478050,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Rwanda",
+      "abbreviation": "RW",
+      "city": "Kigali",
+      "continent": "Africa",
+      "currency_code": "RWF",
+      "currency_name": "Rwanda Franc",
+      "government": "Republic",
+      "independence": 1962,
+      "languages": [
+        "French",
+        "Rwanda"
+      ],
+      "population": 12301939,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Saint Helena",
+      "abbreviation": "SH",
+      "city": "Jamestown",
+      "continent": "Africa",
+      "currency_code": "SHP",
+      "currency_name": "St. Helena Pound",
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 6600,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "abbreviation": "KN",
+      "city": "Basseterre",
+      "continent": "North America",
+      "currency_code": "XCD",
+      "currency_name": null,
+      "government": "Constitutional Monarchy",
+      "independence": 1983,
+      "languages": [
+        "Creole English",
+        "English"
+      ],
+      "population": 52441,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Saint Lucia",
+      "abbreviation": "LC",
+      "city": "Castries",
+      "continent": "North America",
+      "currency_code": "XCD",
+      "currency_name": "East Caribbean Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1979,
+      "languages": [
+        "Creole French",
+        "English"
+      ],
+      "population": 181889,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Saint Pierre and Miquelon",
+      "abbreviation": "PM",
+      "city": "Saint-Pierre",
+      "continent": "North America",
+      "currency_code": "EUR",
+      "currency_name": " Euro",
+      "government": "Territorial Collectivity of France",
+      "independence": null,
+      "languages": [
+        "French"
+      ],
+      "population": 5888,
+      "location": "North America"
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "abbreviation": "VC",
+      "city": "Kingstown",
+      "continent": "North America",
+      "currency_code": "XCD",
+      "currency_name": "East Caribbean Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1979,
+      "languages": [
+        "Creole English",
+        "English"
+      ],
+      "population": 110210,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Samoa",
+      "abbreviation": "WS",
+      "city": "Apia",
+      "continent": "Oceania",
+      "currency_code": "WST",
+      "currency_name": "Samoan Tala",
+      "government": "Parlementary Monarchy",
+      "independence": 1962,
+      "languages": [
+        "English",
+        "Samoan",
+        "Samoan-English"
+      ],
+      "population": 196130,
+      "location": "Polynesia"
+    },
+    {
+      "country": "San Marino",
+      "abbreviation": "SM",
+      "city": "San Marino",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 885,
+      "languages": [
+        "Italian"
+      ],
+      "population": 33785,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "abbreviation": "ST",
+      "city": "S",
+      "continent": "Africa",
+      "currency_code": "STD",
+      "currency_name": " Dobra",
+      "government": "Republic",
+      "independence": 1975,
+      "languages": [
+        "Crioulo",
+        "French"
+      ],
+      "population": 211028,
+      "location": "Central Africa"
+    },
+    {
+      "country": "Saudi Arabia",
+      "abbreviation": "SA",
+      "city": "Riyadh",
+      "continent": "Asia",
+      "currency_code": "SAR",
+      "currency_name": "Saudi Riyal",
+      "government": "Monarchy",
+      "independence": 1932,
+      "languages": [
+        "Arabic"
+      ],
+      "population": 33699947,
+      "location": "Middle East"
+    },
+    {
+      "country": "Senegal",
+      "abbreviation": "SN",
+      "city": "Dakar",
+      "continent": "Africa",
+      "currency_code": "XOF",
+      "currency_name": "CFA Franc BCEAO",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Diola",
+        "Ful",
+        "Malinke",
+        "Serer",
+        "Soninke",
+        "Wolof"
+      ],
+      "population": 15854360,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Serbia",
+      "abbreviation": "RS",
+      "city": "Belgrade",
+      "continent": "Europe",
+      "currency_code": "RSD",
+      "currency_name": "Serbian dinar",
+      "government": "Republic",
+      "independence": 2006,
+      "languages": [
+        "Serbian",
+        "Hungarian",
+        "Slovak",
+        "Romanian",
+        "Croatian",
+        "Rusyn",
+        "Albanian",
+        "Bulgarian",
+        "English"
+      ],
+      "population": 6963764,
+      "location": "Central and Southeast Europe"
+    },
+    {
+      "country": "Seychelles",
+      "abbreviation": "SC",
+      "city": "Victoria",
+      "continent": "Africa",
+      "currency_code": "SCR",
+      "currency_name": "Seychelles Rupee",
+      "government": "Republic",
+      "independence": 1976,
+      "languages": [
+        "English",
+        "French",
+        "Seselwa"
+      ],
+      "population": 96762,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Sierra Leone",
+      "abbreviation": "SL",
+      "city": "Freetown",
+      "continent": "Africa",
+      "currency_code": "SLL",
+      "currency_name": "Sierra Leone Leone",
+      "government": "Republic",
+      "independence": 1961,
+      "languages": [
+        "Bullom-sherbro",
+        "Ful",
+        "Kono-vai",
+        "Kuranko",
+        "Limba",
+        "Mende",
+        "Temne",
+        "Yalunka"
+      ],
+      "population": 7650154,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Singapore",
+      "abbreviation": "SG",
+      "city": "Singapore",
+      "continent": "Asia",
+      "currency_code": "SGD",
+      "currency_name": "Singapore Dollar",
+      "government": "Republic",
+      "independence": 1965,
+      "languages": [
+        "Chinese",
+        "Malay",
+        "Tamil"
+      ],
+      "population": 5638676,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Slovakia",
+      "abbreviation": "SK",
+      "city": "Bratislava",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1993,
+      "languages": [
+        "Czech and Moravian",
+        "Hungarian",
+        "Romani",
+        "Slovak",
+        "Ukrainian and Russian"
+      ],
+      "population": 5446771,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "Slovenia",
+      "abbreviation": "SI",
+      "city": "Ljubljana",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Hungarian",
+        "Serbo-Croatian",
+        "Slovene"
+      ],
+      "population": 2073894,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Solomon Islands",
+      "abbreviation": "SB",
+      "city": "Honiara",
+      "continent": "Oceania",
+      "currency_code": "SBD",
+      "currency_name": "Solomon Islands Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1978,
+      "languages": [
+        "Malenasian Languages",
+        "Papuan Languages",
+        "Polynesian Languages"
+      ],
+      "population": 652858,
+      "location": "Melanesia"
+    },
+    {
+      "country": "Somalia",
+      "abbreviation": "SO",
+      "city": "Mogadishu",
+      "continent": "Africa",
+      "currency_code": "SOS",
+      "currency_name": "Somali Shilling",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Arabic",
+        "Somali"
+      ],
+      "population": 15008154,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "South Africa",
+      "abbreviation": "ZA",
+      "city": "Pretoria",
+      "continent": "Africa",
+      "currency_code": "ZAR",
+      "currency_name": "South African Rand",
+      "government": "Republic",
+      "independence": 1910,
+      "languages": [
+        "Afrikaans",
+        "English",
+        "Ndebele",
+        "Northsotho",
+        "Southsotho",
+        "Swazi",
+        "Tsonga",
+        "Tswana",
+        "Venda",
+        "Xhosa",
+        "Zulu"
+      ],
+      "population": 57779622,
+      "location": "Southern Africa"
+    },
+    {
+      "country": "South Korea",
+      "abbreviation": "KR",
+      "city": "Seoul",
+      "continent": "Asia",
+      "currency_code": "KRW",
+      "currency_name": "Korean Won",
+      "government": "Republic",
+      "independence": 1948,
+      "languages": [
+        "Chinese",
+        "Korean"
+      ],
+      "population": 51606633,
+      "location": "Eastern Asia"
+    },
+    {
+      "country": "Spain",
+      "abbreviation": "ES",
+      "city": "Madrid",
+      "continent": "Europe",
+      "currency_code": "EUR",
+      "currency_name": "Euro",
+      "government": "Constitutional Monarchy",
+      "independence": 1492,
+      "languages": [
+        "Basque",
+        "Catalan",
+        "Galecian",
+        "Spanish"
+      ],
+      "population": 46796540,
+      "location": "Southern Europe"
+    },
+    {
+      "country": "Sri Lanka",
+      "abbreviation": "LK",
+      "city": null,
+      "continent": "Asia",
+      "currency_code": "LKR",
+      "currency_name": null,
+      "government": null,
+      "independence": null,
+      "languages": [
+        "Mixed Languages",
+        "Singali",
+        "Tamil"
+      ],
+      "population": 21670000,
+      "location": null
+    },
+    {
+      "country": "Sudan",
+      "abbreviation": "SD",
+      "city": "Khartum",
+      "continent": "Africa",
+      "currency_code": "SDG",
+      "currency_name": "Sudanese Pound",
+      "government": "Islamic Republic",
+      "independence": 1956,
+      "languages": [
+        "Arabic",
+        "Bari",
+        "Beja",
+        "Chilluk",
+        "Dinka",
+        "Fur",
+        "Lotuko",
+        "Nubian Languages",
+        "Nuer",
+        "Zande"
+      ],
+      "population": 41801533,
+      "location": "Northern Africa"
+    },
+    {
+      "country": "Suriname",
+      "abbreviation": "SR",
+      "city": "Paramaribo",
+      "continent": "South America",
+      "currency_code": "SRD",
+      "currency_name": "Surinam Dollar",
+      "government": "Republic",
+      "independence": 1975,
+      "languages": [
+        "Hindi",
+        "Sranantonga"
+      ],
+      "population": 575991,
+      "location": "South America"
+    },
+    {
+      "country": "Svalbard and Jan Mayen",
+      "abbreviation": "SJ",
+      "city": "Longyearbyen",
+      "continent": "Europe",
+      "currency_code": "NOK",
+      "currency_name": null,
+      "government": "Dependent Territory of Norway",
+      "independence": null,
+      "languages": [
+        "Norwegian",
+        "Russian"
+      ],
+      "population": 2572,
+      "location": "Nordic Countries"
+    },
+    {
+      "country": "Swaziland",
+      "abbreviation": "SZ",
+      "city": "Mbabane",
+      "continent": "Africa",
+      "currency_code": "SZL",
+      "currency_name": "Swaziland Lilangeni",
+      "government": "Monarchy",
+      "independence": 1968,
+      "languages": [
+        "Swazi",
+        "Zulu"
+      ],
+      "population": 1136191,
+      "location": "Southern Africa"
+    },
+    {
+      "country": "Sweden",
+      "abbreviation": "SE",
+      "city": "Stockholm",
+      "continent": "Europe",
+      "currency_code": "SEK",
+      "currency_name": "Swedish Krona",
+      "government": "Constitutional Monarchy",
+      "independence": 836,
+      "languages": [
+        "Arabic",
+        "Finnish",
+        "Norwegian",
+        "Southern Slavic Languages",
+        "Spanish",
+        "Swedish"
+      ],
+      "population": 10175214,
+      "location": "Nordic Countries"
+    },
+    {
+      "country": "Switzerland",
+      "abbreviation": "CH",
+      "city": "Bern",
+      "continent": "Europe",
+      "currency_code": "CHF",
+      "currency_name": "Swiss Franc",
+      "government": "Federation",
+      "independence": 1499,
+      "languages": [
+        "French",
+        "German",
+        "Italian",
+        "Romansh"
+      ],
+      "population": 8513227,
+      "location": "Western Europe"
+    },
+    {
+      "country": "Syria",
+      "abbreviation": "SY",
+      "city": "Damascus",
+      "continent": "Asia",
+      "currency_code": "SYP",
+      "currency_name": "Syrian Pound",
+      "government": "Republic",
+      "independence": 1941,
+      "languages": [
+        "Arabic",
+        "Kurdish"
+      ],
+      "population": 16906283,
+      "location": "Middle East"
+    },
+    {
+      "country": "Tajikistan",
+      "abbreviation": "TJ",
+      "city": "Dushanbe",
+      "continent": "Asia",
+      "currency_code": "TJS",
+      "currency_name": "Tajik Somoni",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Russian",
+        "Tadzhik",
+        "Uzbek"
+      ],
+      "population": 9100837,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Tanzania",
+      "abbreviation": "TZ",
+      "city": "Dodoma",
+      "continent": "Africa",
+      "currency_code": "TZS",
+      "currency_name": "Tanzanian Shilling",
+      "government": "Republic",
+      "independence": 1961,
+      "languages": [
+        "Chaga and Pare",
+        "Gogo",
+        "Ha",
+        "Haya",
+        "Hehet",
+        "Luguru",
+        "Makonde",
+        "Nyakusa",
+        "Nyamwesi",
+        "Shambala",
+        "Swahili"
+      ],
+      "population": 56318348,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Thailand",
+      "abbreviation": "TH",
+      "city": "Bangkok",
+      "continent": "Asia",
+      "currency_code": "THB",
+      "currency_name": "Thai Baht",
+      "government": "Constitutional Monarchy",
+      "independence": 1350,
+      "languages": [
+        "Chinese",
+        "Khmer",
+        "Kuy",
+        "Lao",
+        "Malay",
+        "Thai"
+      ],
+      "population": 69428524,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Togo",
+      "abbreviation": "TG",
+      "city": "Lom\u00c3\u00a9",
+      "continent": "Africa",
+      "currency_code": "XOF",
+      "currency_name": "CFA Franc BCEAO",
+      "government": "Republic",
+      "independence": 1960,
+      "languages": [
+        "Ane",
+        "Ewe",
+        "Gurma",
+        "Kaby\u00e2\u02c6\u0161\u00c2\u00a9",
+        "Kotokoli",
+        "Moba",
+        "Naudemba",
+        "Watyi"
+      ],
+      "population": 7889094,
+      "location": "Western Africa"
+    },
+    {
+      "country": "Tokelau",
+      "abbreviation": "TK",
+      "city": "Fakaofo",
+      "continent": "Oceania",
+      "currency_code": "NZD",
+      "currency_name": "New Zealand Dollar",
+      "government": "Nonmetropolitan Territory of New Zealand",
+      "independence": null,
+      "languages": [
+        "English",
+        "Tokelau"
+      ],
+      "population": 1411,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Tonga",
+      "abbreviation": "TO",
+      "city": "Nuku'alofa",
+      "continent": "Oceania",
+      "currency_code": "TOP",
+      "currency_name": "Tongan Pa'anga",
+      "government": "Monarchy",
+      "independence": 1970,
+      "languages": [
+        "English",
+        "Tongan"
+      ],
+      "population": 103197,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "abbreviation": "TT",
+      "city": "Port-of-Spain",
+      "continent": "North America",
+      "currency_code": "TTD",
+      "currency_name": "Trinidad and Tobago Dollar",
+      "government": "Republic",
+      "independence": 1962,
+      "languages": [
+        "Creole English",
+        "English",
+        "Hindi"
+      ],
+      "population": 1389858,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Tunisia",
+      "abbreviation": "TN",
+      "city": "Tunis",
+      "continent": "Africa",
+      "currency_code": "TND",
+      "currency_name": "Tunisian Dollar",
+      "government": "Republic",
+      "independence": 1956,
+      "languages": [
+        "Arabic",
+        "Arabic-French",
+        "Arabic-French-English"
+      ],
+      "population": 11565204,
+      "location": "Northern Africa"
+    },
+    {
+      "country": "Turkey",
+      "abbreviation": "TR",
+      "city": "Ankara",
+      "continent": "Asia",
+      "currency_code": "TRY",
+      "currency_name": "Turkish Lira",
+      "government": "Republic",
+      "independence": 1923,
+      "languages": [
+        "Arabic",
+        "Kurdish",
+        "Turkish"
+      ],
+      "population": 82319724,
+      "location": "Middle East"
+    },
+    {
+      "country": "Turkmenistan",
+      "abbreviation": "TM",
+      "city": "Ashgabat",
+      "continent": "Asia",
+      "currency_code": "TMT",
+      "currency_name": "Manat",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Kazakh",
+        "Russian",
+        "Turkmenian",
+        "Uzbek"
+      ],
+      "population": 5850908,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Turks and Caicos Islands",
+      "abbreviation": "TC",
+      "city": "Cockburn Town",
+      "continent": "North America",
+      "currency_code": "USD",
+      "currency_name": null,
+      "government": "Dependent Territory of the UK",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 37665,
+      "location": "Caribbean"
+    },
+    {
+      "country": "Tuvalu",
+      "abbreviation": "TV",
+      "city": "Funafuti",
+      "continent": "Oceania",
+      "currency_code": "AUD",
+      "currency_name": "Australian Dollar",
+      "government": "Constitutional Monarchy",
+      "independence": 1978,
+      "languages": [
+        "English",
+        "Kiribati",
+        "Tuvalu"
+      ],
+      "population": 11508,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Uganda",
+      "abbreviation": "UG",
+      "city": "Kampala",
+      "continent": "Africa",
+      "currency_code": "UGX",
+      "currency_name": "Uganda Shilling",
+      "government": "Republic",
+      "independence": 1962,
+      "languages": [
+        "Acholi",
+        "Ganda",
+        "Gisu",
+        "Kiga",
+        "Lango",
+        "Lugbara",
+        "Nkole",
+        "Rwanda",
+        "Soga",
+        "Teso"
+      ],
+      "population": 42723139,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Ukraine",
+      "abbreviation": "UA",
+      "city": "Kyiv",
+      "continent": "Europe",
+      "currency_code": "UAH",
+      "currency_name": "Ukraine Hryvnia",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Belorussian",
+        "Bulgariana",
+        "Hungarian",
+        "Polish",
+        "Romanian",
+        "Russian",
+        "Ukrainian"
+      ],
+      "population": 44622516,
+      "location": "Eastern Europe"
+    },
+    {
+      "country": "United Arab Emirates",
+      "abbreviation": "AE",
+      "city": "Abu Dhabi",
+      "continent": "Asia",
+      "currency_code": "AED",
+      "currency_name": "Arab Emirates Dirham",
+      "government": "Emirate Federation",
+      "independence": 1971,
+      "languages": [
+        "Arabic",
+        "Hindi"
+      ],
+      "population": 9630959,
+      "location": "Middle East"
+    },
+    {
+      "country": "United Kingdom",
+      "abbreviation": "UK",
+      "city": "London",
+      "continent": "Europe",
+      "currency_code": "GBP",
+      "currency_name": null,
+      "government": "Constitutional Monarchy",
+      "independence": 1066,
+      "languages": [
+        "English",
+        "Gaeli",
+        "Kymri"
+      ],
+      "population": 66460344,
+      "location": "British Isles"
+    },
+    {
+      "country": "United States",
+      "abbreviation": "US",
+      "city": "Washington",
+      "continent": "North America",
+      "currency_code": "USD",
+      "currency_name": null,
+      "government": "Federal Republic",
+      "independence": 1776,
+      "languages": [
+        "Chinese",
+        "English",
+        "French",
+        "German",
+        "Italian",
+        "Japanese",
+        "Korean",
+        "Polish",
+        "Portuguese",
+        "Spanish",
+        "Tagalog",
+        "Vietnamese"
+      ],
+      "population": 326687501,
+      "location": "North America"
+    },
+    {
+      "country": "United States Minor Outlying Islands",
+      "abbreviation": "UM",
+      "city": null,
+      "continent": "Oceania",
+      "currency_code": "USD",
+      "currency_name": null,
+      "government": "Dependent Territory of the US",
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 300,
+      "location": "Micronesia/Caribbean"
+    },
+    {
+      "country": "Uruguay",
+      "abbreviation": "UY",
+      "city": "Montevideo",
+      "continent": "South America",
+      "currency_code": "UYU",
+      "currency_name": "Uruguayan Peso",
+      "government": "Republic",
+      "independence": 1828,
+      "languages": [
+        "Spanish"
+      ],
+      "population": 3449299,
+      "location": "South America"
+    },
+    {
+      "country": "Uzbekistan",
+      "abbreviation": "UZ",
+      "city": "Toskent",
+      "continent": "Asia",
+      "currency_code": "UZS",
+      "currency_name": "Uzbekistan Sum",
+      "government": "Republic",
+      "independence": 1991,
+      "languages": [
+        "Karakalpak",
+        "Kazakh",
+        "Russian",
+        "Tadzhik",
+        "Tatar",
+        "Uzbek"
+      ],
+      "population": 32955400,
+      "location": "Southern and Central Asia"
+    },
+    {
+      "country": "Vanuatu",
+      "abbreviation": "VU",
+      "city": "Port-Vila",
+      "continent": "Oceania",
+      "currency_code": "VUV",
+      "currency_name": "Vanuatu Vatu",
+      "government": "Republic",
+      "independence": 1980,
+      "languages": [
+        "Bislama",
+        "English",
+        "French"
+      ],
+      "population": 292680,
+      "location": "Melanesia"
+    },
+    {
+      "country": "Venezuela",
+      "abbreviation": "VE",
+      "city": "Caracas",
+      "continent": "South America",
+      "currency_code": "VEF",
+      "currency_name": "Venezuelan Bolivar",
+      "government": "Federal Republic",
+      "independence": 1811,
+      "languages": [
+        "Goajiro",
+        "Spanish",
+        "Warrau"
+      ],
+      "population": 28870195,
+      "location": "South America"
+    },
+    {
+      "country": "Vietnam",
+      "abbreviation": "VN",
+      "city": "Hanoi",
+      "continent": "Asia",
+      "currency_code": "VND",
+      "currency_name": "Vietnamese Dong",
+      "government": "Socialistic Republic",
+      "independence": 1945,
+      "languages": [
+        "Chinese",
+        "Khmer",
+        "Man",
+        "Miao",
+        "Muong",
+        "Nung",
+        "Thai",
+        "Tho",
+        "Vietnamese"
+      ],
+      "population": 95540395,
+      "location": "Southeast Asia"
+    },
+    {
+      "country": "Virgin Islands, British",
+      "abbreviation": "VG",
+      "city": "Road Town",
+      "continent": "North America",
+      "currency_code": "USD",
+      "currency_name": null,
+      "government": null,
+      "independence": null,
+      "languages": [
+        "English"
+      ],
+      "population": 29802,
+      "location": null
+    },
+    {
+      "country": "Virgin Islands, U.S.",
+      "abbreviation": "VI",
+      "city": "Charlotte Amalie",
+      "continent": "North America",
+      "currency_code": "USD",
+      "currency_name": null,
+      "government": null,
+      "independence": null,
+      "languages": [
+        "English",
+        "French",
+        "Spanish"
+      ],
+      "population": 106977,
+      "location": null
+    },
+    {
+      "country": "Wallis and Futuna",
+      "abbreviation": "WF",
+      "city": "Mata-Utu",
+      "continent": "Oceania",
+      "currency_code": "XPF",
+      "currency_name": null,
+      "government": "Nonmetropolitan Territory of France",
+      "independence": null,
+      "languages": [
+        "Futuna",
+        "Wallis"
+      ],
+      "population": 15289,
+      "location": "Polynesia"
+    },
+    {
+      "country": "Western Sahara",
+      "abbreviation": "EH",
+      "city": "El-Aai",
+      "continent": "Africa",
+      "currency_code": "MAD",
+      "currency_name": "Moroccan Dirham",
+      "government": "Occupied by Marocco",
+      "independence": null,
+      "languages": [
+        "Arabic"
+      ],
+      "population": 652271,
+      "location": "Northern Africa"
+    },
+    {
+      "country": "Yemen",
+      "abbreviation": "YE",
+      "city": "Sanaa",
+      "continent": "Asia",
+      "currency_code": "YER",
+      "currency_name": "Yemeni Rial",
+      "government": "Republic",
+      "independence": 1918,
+      "languages": [
+        "Arabic",
+        "Soqutri"
+      ],
+      "population": 28498687,
+      "location": "Middle East"
+    },
+    {
+      "country": "Zambia",
+      "abbreviation": "ZM",
+      "city": "Lusaka",
+      "continent": "Africa",
+      "currency_code": "ZMW",
+      "currency_name": "Zambian Kwacha",
+      "government": "Republic",
+      "independence": 1964,
+      "languages": [
+        "Bemba",
+        "Chewa",
+        "Lozi",
+        "Nsenga",
+        "Nyanja",
+        "Tongan"
+      ],
+      "population": 17351822,
+      "location": "Eastern Africa"
+    },
+    {
+      "country": "Zimbabwe",
+      "abbreviation": "ZW",
+      "city": "Harare",
+      "continent": "Africa",
+      "currency_code": "ZWD",
+      "currency_name": "Zimbabwe Dollar",
+      "government": "Republic",
+      "independence": 1980,
+      "languages": [
+        "English",
+        "Ndebele",
+        "Nyanja",
+        "Shona"
+      ],
+      "population": 14439018,
+      "location": "Eastern Africa"
+    }
+  ]
+}
