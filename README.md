@@ -75,7 +75,7 @@ Focused Topics: SpriteKit, physics, blend modes, radians and CGFloat.
 Project 10 Update to fix bug where names/faces added to app don't get saved.
 
 Focused Topics: UserDefaults (saving data and user settings / backups and restores data), NSCoding, Codable
-* Note: P12 Challenge 1, 2, 3 modifies copies of P3, P6, P5 respectively.
+* Note: P12 Challenge 1, 2, 3 modifies copies of P3, P6a, P5 respectively.
 
 ### P13: Instafilter
 App that allows users to choose a photo from their album, change and apply filters, and save the processed image back to photo album.
@@ -91,6 +91,7 @@ Focused Topics: SKCropNode, SKTexture, asyncAfter(), New SKAction types
 App that performs animations when a button is tapped (sandbox for coding animations).
 
 Focused Topics: Core Animation, animate(withDuration:), Spring animations, Alpha values, CGAffineTransform
+* Note: P15 Challenge 1, 2, 3 modifies copies of P8, P13, P6a respectively.
 
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
