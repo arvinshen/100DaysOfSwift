@@ -98,6 +98,11 @@ App that shows information about capital cities that have placemarks on the map.
 
 Focused Topics: MapKit, MKMapView, MKAnnotation, MKPinAnnotationView, CLLocationCoordinate2D
 
+### P17: Space Race
+Simple survival game where the player pilots a spaceship through fields of space junk.
+
+Focused Topics: Per-pixel collision detection, advanced particle systems, Timer, linear and angular damping
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
