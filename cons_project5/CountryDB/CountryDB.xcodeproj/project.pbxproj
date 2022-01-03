@@ -14,6 +14,9 @@
 		854D701027816FF500DABE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854D700F27816FF500DABE19 /* Assets.xcassets */; };
 		854D701327816FF500DABE19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854D701127816FF500DABE19 /* LaunchScreen.storyboard */; };
 		854D705F278247FB00DABE19 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 854D705E278247FB00DABE19 /* country.json */; };
+		854D70C72783784C00DABE19 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854D70C62783784C00DABE19 /* Country.swift */; };
+		854D70CA278378FD00DABE19 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854D70C9278378FD00DABE19 /* Countries.swift */; };
+		854D70CD2783913E00DABE19 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854D70CC2783913E00DABE19 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		854D701227816FF500DABE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		854D701427816FF500DABE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		854D705E278247FB00DABE19 /* country.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
+		854D70C62783784C00DABE19 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		854D70C9278378FD00DABE19 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		854D70CC2783913E00DABE19 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,10 @@
 				854D700627816FE500DABE19 /* AppDelegate.swift */,
 				854D700827816FE500DABE19 /* SceneDelegate.swift */,
 				854D700A27816FE500DABE19 /* ViewController.swift */,
+				854D70C62783784C00DABE19 /* Country.swift */,
+				854D70C9278378FD00DABE19 /* Countries.swift */,
 				854D700C27816FE500DABE19 /* Main.storyboard */,
+				854D70CC2783913E00DABE19 /* DetailViewController.swift */,
 				854D700F27816FF500DABE19 /* Assets.xcassets */,
 				854D701127816FF500DABE19 /* LaunchScreen.storyboard */,
 				854D701427816FF500DABE19 /* Info.plist */,
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854D70C72783784C00DABE19 /* Country.swift in Sources */,
 				854D700B27816FE500DABE19 /* ViewController.swift in Sources */,
 				854D700727816FE500DABE19 /* AppDelegate.swift in Sources */,
+				854D70CD2783913E00DABE19 /* DetailViewController.swift in Sources */,
+				854D70CA278378FD00DABE19 /* Countries.swift in Sources */,
 				854D700927816FE500DABE19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
