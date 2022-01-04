@@ -11,7 +11,8 @@
 
 #####
 # Mac OS X, OS X, macOS temporary files that should never be committed
-*.DS_Store
+.DS_Store
+**/.DS_Store
 .Trashes
 *.swp
 
@@ -22,6 +23,7 @@
 
 ## User settings
 xcuserdata/
+**/xcuserdata/
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
