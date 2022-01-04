@@ -126,3 +126,6 @@ App that lets users take and save pictures, add captions and view them in a tabl
 
 ### C5 (Consolidation of P13-15): CountryDB (Country Database)
 App that lists countries that when selected will show detailed information about the country.
+
+### C6 (Consolidation of P16-18): Ghost Pac Hunt
+Shooting gallery type game to help Pac-man by shooting the ghosts. 
