@@ -103,6 +103,12 @@ Simple survival game where the player pilots a spaceship through fields of space
 
 Focused Topics: Per-pixel collision detection, advanced particle systems, Timer, linear and angular damping
 
+### P18: Debugging
+Throwaway sandbox code going over debugging tools.
+
+Focused Topics: print(), assert(), Breakpoints (exception & conditional breakpoints), View debugging
+* Note: P18 Challenge 1 & 2 adds exception breakpoint and assert() respectively; Challenge 3 adds conditional breakpoint.
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
