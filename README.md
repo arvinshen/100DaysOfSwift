@@ -109,6 +109,12 @@ Throwaway sandbox code going over debugging tools.
 Focused Topics: print(), assert(), Breakpoints (exception & conditional breakpoints), View debugging
 * Note: P18 Challenge 1 & 2 adds exception breakpoint and assert() respectively; Challenge 3 adds conditional breakpoint.
 
+
+### P19: JavaScript Injection
+A Safari extention which embeds a version of the app directly inside Safari's action menu, then manipulate Safari data (Capable of reading the URL and page title of the website the user visited, then show a large text area they can type JavaScript into and when extension is dismissed, it'll execute that JavaScript in Safari.)
+
+Focused Topics: Extensions, NotificationCenter class, UITextView, and building a bridge between JavaScript and Swift functionalities.
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
