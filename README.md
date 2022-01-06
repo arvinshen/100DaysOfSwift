@@ -115,6 +115,11 @@ A Safari extention which embeds a version of the app directly inside Safari's ac
 
 Focused Topics: Extensions, NotificationCenter class, UITextView, and building a bridge between JavaScript and Swift functionalities.
 
+### P20: Fireworks Night
+Game where players will need to select and detonate groups of fireworks of the same color, which means tapping and swiping around the screen.
+
+Focused Topics: follow(), UIBezierPath, for case let, Color blending, Shake gesture
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
