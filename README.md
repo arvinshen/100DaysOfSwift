@@ -120,6 +120,11 @@ Game where players will need to select and detonate groups of fireworks of the s
 
 Focused Topics: follow(), UIBezierPath, for case let, Color blending, Shake gesture
 
+### P21: Local Notifications
+Sends reminders to user's lock screen to show them information when app isn't running.
+
+Focused Topics: UNUserNotificationCenter, requesting permission for notifications, different kinds of notification triggers
+
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
