@@ -8,50 +8,40 @@
 import UIKit
 import MobileCoreServices
 
+protocol ActionViewControllerDelegate: NSObjectProtocol {
+    func passDataBackToTableView(data: String, index: Int)
+}
+
 class ActionViewController: UIViewController {
     @IBOutlet var script: UITextView!
+    weak var delegate: ActionViewControllerDelegate?
 
-    var pageTitle = ""
-    var pageURL = ""
+    var scripts = [Script]()
+    var index = 0
+    var javaScript = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(chooseScript))
+        script.text = javaScript
+        
+        navigationItem.leftItemsSupplementBackButton = true
+        
+        let chooseScriptBtn = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(chooseScript))
+        let saveBtn = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(save))
+        navigationItem.leftBarButtonItems = [chooseScriptBtn, saveBtn]
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(done))
         
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(self, selector: #selector(adjustForKeyboard), name: UIResponder.keyboardWillHideNotification, object: nil)
         notificationCenter.addObserver(self, selector: #selector(adjustForKeyboard), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
-        
-        // extensionContext lets us control how it interacts with the parent app.
-        // inputItems will be an array of data the parent app is sending to our extension to use.
-        if let inputItem = extensionContext?.inputItems.first as? NSExtensionItem {
-            if let itemProvider = inputItem.attachments?.first {
-                // loadItem asks the item provider to provide us with its item (code executes asynchronously since code uses closure)
-                itemProvider.loadItem(forTypeIdentifier: kUTTypePropertyList as String) {
-                    [weak self] (dict, error) in
-                    guard let itemDictionary = dict as? NSDictionary else { return }
-                    guard let javaScriptValues = itemDictionary[NSExtensionJavaScriptPreprocessingResultsKey] as? NSDictionary else { return }
-
-                    self?.pageTitle = javaScriptValues["title]"] as? String ?? ""
-                    self?.pageURL = javaScriptValues["URL"] as? String ?? ""
-                    
-                    DispatchQueue.main.async {
-                        self?.load()
-                        self?.title = self?.pageTitle
-                    }
-                }
-            }
-        }
     }
     
     @objc func chooseScript() {
-        let ac = UIAlertController(title: "Choose script to run", message: nil, preferredStyle: .actionSheet)
+        let ac = UIAlertController(title: "Choose a pre-written example script to run", message: nil, preferredStyle: .actionSheet)
         ac.addAction(UIAlertAction(title: "alert()", style: .default) {
             [weak self] _ in
             self?.script.text = "alert(document.title);"
-            self?.save()
         })
         ac.addAction(UIAlertAction(title: "prompt()", style: .default) {
             [weak self] _ in
@@ -59,17 +49,14 @@ class ActionViewController: UIViewController {
                 let person = prompt(\"Please enter your name\", \"Harry Potter\");
                 alert(\"Hello \" + person + \"! How are you today?\");
                 """
-            self?.save()
         })
         ac.addAction(UIAlertAction(title: "open()", style: .default) {
             [weak self] _ in
             self?.script.text = "window.open(\"https://old.reddit.com\");"
-            self?.save()
         })
         ac.addAction(UIAlertAction(title: "scrollBy()", style: .default) {
             [weak self] _ in
             self?.script.text = "window.scrollBy(0, 1000);\nalert(\"Scrolled \" + window.scrollX + \" pixels to the right and \" + window.scrollY + \" pixels down.\")"
-            self?.save()
         })
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         
@@ -103,32 +90,12 @@ class ActionViewController: UIViewController {
         
         let selectedRange = script.selectedRange
         script.scrollRangeToVisible(selectedRange)
-        save()
     }
     
-    func load() {
-        let defaults = UserDefaults.standard
-        let site = URL(string: pageURL)
-
-        if let savedJS = defaults.object(forKey: site?.host ?? "site") as? Data {
-            do {
-                script.text = try JSONDecoder().decode(String.self, from: savedJS)
-            } catch {
-                print("Failed to load JavaScript")
-            }
-        }
-    }
-    
-    func save() {
-        let defaults = UserDefaults.standard
-        // converts string URL to URL and utilizes URL object host property as forKey
-        let site = URL(string: pageURL)
-        
-        if let savedJS = try? JSONEncoder().encode(script.text) {
-            // saves user's JavaScript for each site by making forKey unique to host
-            defaults.set(savedJS, forKey: site?.host ?? "site")
-        } else {
-            print("Failed to save JavaScript")
+    @objc func save() {
+        // passes back script text back to Table View (ViewController)
+        if let delegate = delegate {
+            delegate.passDataBackToTableView(data: script.text, index: index)
         }
     }
 }
