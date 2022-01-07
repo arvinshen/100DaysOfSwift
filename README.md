@@ -114,6 +114,7 @@ Focused Topics: print(), assert(), Breakpoints (exception & conditional breakpoi
 A Safari extention which embeds a version of the app directly inside Safari's action menu, then manipulate Safari data (Capable of reading the URL and page title of the website the user visited, then show a large text area they can type JavaScript into and when extension is dismissed, it'll execute that JavaScript in Safari.)
 
 Focused Topics: Extensions, NotificationCenter class, UITextView, and building a bridge between JavaScript and Swift functionalities.
+* Note: Added a Protocol and Delegate to pass back data from current view controller to previous view controller for Project 19 Challenge #3 (Not taught in Hacking With Swift up to this point). 
 
 ### P20: Fireworks Night
 Game where players will need to select and detonate groups of fireworks of the same color, which means tapping and swiping around the screen.
