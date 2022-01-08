@@ -11,6 +11,7 @@ A free education program to learn Swift over 100 days building real iOS apps.
 * Disclosure: iPhone X<sub>R</sub> is the default device used for the UI layout. Early projects' UI layout are not dynamic and may break the app's functionality if other devices are used and/or orientation is changed. Projects 1-12 challenges completed on original while challenges for projects 13 and onward are done on a copy of the project.
 
 ## Projects:
+100 Days of Swift has 40 projects total with each having 3 challenges (C1, C2, C3) to improve upon the code.
 
 ### P1: Storm Viewer
 App that lets users scroll through lists of images, then select one to view.
@@ -91,7 +92,7 @@ Focused Topics: SKCropNode, SKTexture, asyncAfter(), New SKAction types
 App that performs animations when a button is tapped (sandbox for coding animations).
 
 Focused Topics: Core Animation, animate(withDuration:), Spring animations, Alpha values, CGAffineTransform
-* Note: P15 Challenge 1, 2, 3 modifies copies of P8, P13, P6a respectively.
+* Note: P15 Challenge 1, 2, 3 modifies copies of P8, P13, P12 C2 respectively.
 
 ### P16: Capital Cities
 App that shows information about capital cities that have placemarks on the map.
@@ -109,7 +110,6 @@ Throwaway sandbox code going over debugging tools.
 Focused Topics: print(), assert(), Breakpoints (exception & conditional breakpoints), View debugging
 * Note: P18 Challenge 1 & 2 adds exception breakpoint and assert() respectively; Challenge 3 adds conditional breakpoint.
 
-
 ### P19: JavaScript Injection
 A Safari extention which embeds a version of the app directly inside Safari's action menu, then manipulate Safari data (Capable of reading the URL and page title of the website the user visited, then show a large text area they can type JavaScript into and when extension is dismissed, it'll execute that JavaScript in Safari.)
 
@@ -125,24 +125,25 @@ Focused Topics: follow(), UIBezierPath, for case let, Color blending, Shake gest
 Sends reminders to user's lock screen to show them information when app isn't running.
 
 Focused Topics: UNUserNotificationCenter, requesting permission for notifications, different kinds of notification triggers
+* Note: P21 Challenge 3 adds daily reminder notifications to P15 C3.
 
 ## Consolidation Projects:
 Challenge/Milestone projects that cover multiple projects and the topics learned.
 
-### C1 (Consolidation of P1-3): Flag Viewer
+### CP1 (Consolidation of P1-3): Flag Viewer
 App that lists names and images of country flags created using TableViews, that when selected will view the flag in larger detail in another ViewController and have the functionality to share the image using UIActivityViewController.
 
-### C2 (Consolidation of P4-6): Shopping List
+### CP2 (Consolidation of P4-6): Shopping List
 App that lets you add items to create a shopping list.
 
-### C3 (Consolidation of P7-9): Hangman
+### CP3 (Consolidation of P7-9): Hangman
 App to play the guessing game, Hangman.
 
-### C4 (Consolidation of P10-12): Photo Caption View
+### CP4 (Consolidation of P10-12): Photo Caption View
 App that lets users take and save pictures, add captions and view them in a table view. Tapping the caption shows the picture in a new view controller.
 
-### C5 (Consolidation of P13-15): CountryDB (Country Database)
+### CP5 (Consolidation of P13-15): CountryDB (Country Database)
 App that lists countries that when selected will show detailed information about the country.
 
-### C6 (Consolidation of P16-18): Ghost Pac Hunt
+### CP6 (Consolidation of P16-18): Ghost Pac Hunt
 Shooting gallery type game to help Pac-man by shooting the ghosts. 
