@@ -5,9 +5,10 @@
 //  Created by Arvin Shen on 11/9/21.
 //
 
+import UserNotifications
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     @IBOutlet var button1: UIButton!
     @IBOutlet var button2: UIButton!
     @IBOutlet var button3: UIButton!
@@ -47,6 +48,8 @@ class ViewController: UIViewController {
         button3.layer.borderColor = UIColor.lightGray.cgColor
         
         askQuestion()
+        
+        registerLocal()
     }
     
     func askQuestion(action: UIAlertAction! = nil) {
@@ -62,6 +65,11 @@ class ViewController: UIViewController {
         title = "#\(numberOfQuestions)   |   " + countries[correctAnswer].uppercased() + "   |   Score: \(score)"
     }
 
+    func newGame(action: UIAlertAction! = nil) {
+        score = 0
+        numberOfQuestions = 1
+        askQuestion()
+    }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
         var title: String
@@ -90,13 +98,11 @@ class ViewController: UIViewController {
                 ac = UIAlertController(title: title, message: "New High Score of \(score)!!", preferredStyle: .alert)
                 bestScore = score
                 save()
-                ac.addAction(UIAlertAction(title: "New Game", style: .default, handler: askQuestion))
+                ac.addAction(UIAlertAction(title: "New Game", style: .default, handler: newGame))
             } else {
                 ac = UIAlertController(title: title, message: "Your final score is \(score)", preferredStyle: .alert)
-                ac.addAction(UIAlertAction(title: "New Game", style: .default, handler: askQuestion))
+                ac.addAction(UIAlertAction(title: "New Game", style: .default, handler: newGame))
             }
-            score = 0
-            numberOfQuestions = 1
         } else {
             ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
         }
@@ -128,6 +134,73 @@ class ViewController: UIViewController {
         } else {
             print("Failed to save best score")
         }
+    }
+    
+    @objc func registerLocal() {
+        let center = UNUserNotificationCenter.current()
+        
+        center.requestAuthorization(options: [.alert, .badge, .sound]) {
+            granted, error in
+            if granted {
+                print("User Authorization Granted!")
+                DispatchQueue.main.async {
+                    [weak self] in
+                    let ac = UIAlertController(title: "Daily Notifications On", message: nil, preferredStyle: .alert)
+                    ac.addAction(UIAlertAction(title: "OK", style: .default) { _ in
+                        self?.scheduleLocal()
+                    })
+                    self?.present(ac, animated: true)
+                }
+
+            } else {
+                print("User Authorization Denied!")
+            }
+        }
+    }
+    
+    @objc func scheduleLocal() {
+        registerCategories()
+        
+        let center = UNUserNotificationCenter.current()
+        center.removeAllPendingNotificationRequests()
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Daily Reminder"
+        content.body = "Don't forget to play"
+        content.categoryIdentifier = "alarm"
+        content.sound = .default
+        
+        var dateComponents = DateComponents()
+        dateComponents.hour = 8
+        dateComponents.minute = 0
+                let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+        
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        
+        center.add(request)
+    }
+    
+    func registerCategories() {
+        let center = UNUserNotificationCenter.current()
+        center.delegate = self
+        
+        let remind = UNNotificationAction(identifier: "remind", title: "Play Guess The Flag", options: .foreground)
+        let category = UNNotificationCategory(identifier: "alarm", actions: [remind], intentIdentifiers: [], options: [])
+        
+        center.setNotificationCategories([category])
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        switch response.actionIdentifier {
+        case UNNotificationDefaultActionIdentifier:
+            newGame()
+        case "remind":
+            newGame()
+        default:
+            break
+        }
+        
+        completionHandler()
     }
 }
 
