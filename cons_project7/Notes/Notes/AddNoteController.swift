@@ -7,24 +7,40 @@
 
 import UIKit
 
+protocol AddNoteControllerDelegate: NSObjectProtocol {
+    func passDataBackToNotesController(data: String, index: Int)
+}
+
 class AddNoteController: UIViewController {
+    weak var delegate: AddNoteControllerDelegate?
+    var notes = [Note]()
+    var index = 0
     
     let textView: UITextView = {
         let tv = UITextView()
         tv.textAlignment = .left
         tv.translatesAutoresizingMaskIntoConstraints = false
-        tv.backgroundColor = .white
+        tv.allowsEditingTextAttributes = true
+        tv.textColor = .black
         return tv
     }()
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        save()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.setValue(true, forKey: "hidesShadow")
         navigationItem.largeTitleDisplayMode = .never
+        tabBarController?.tabBar.layer.borderColor = UIColor.clear.cgColor
 
         view.backgroundColor = .white
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(handleDone))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(done))
         
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(self, selector: #selector(adjustForKeyboard), name: UIResponder.keyboardWillHideNotification, object: nil)
@@ -35,9 +51,6 @@ class AddNoteController: UIViewController {
         NSLayoutConstraint.activate([
             textView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             textView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-//            textView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            textView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-//            textView.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor),
             textView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             textView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
         ])
@@ -46,9 +59,16 @@ class AddNoteController: UIViewController {
     }
 
     // MARK: - Selectors
+    @objc func done() {
+        view.endEditing(true)
+        save()
+    }
     
-    @objc func handleDone() {
-        print("Handle done...")
+    func save() {
+        // passes note text back to NotesController Table View
+        if let delegate = delegate {
+            delegate.passDataBackToNotesController(data: textView.text, index: index)
+        }
     }
     
     @objc func adjustForKeyboard(notification: Notification) {
@@ -60,11 +80,9 @@ class AddNoteController: UIViewController {
         let keyboardViewEndFrame = view.convert(keyboardScreenEndFrame, from: view.window)
         
         if notification.name == UIResponder.keyboardWillHideNotification {
-            textView.textContainerInset = UIEdgeInsets(top: 20, left: 20, bottom: keyboardViewEndFrame.height - view.safeAreaInsets.bottom - (navigationController?.tabBarController?.tabBar.frame.size.height)!, right: 20)
-//            textView.contentInset = UIEdgeInsets(top: 0, left: 15, bottom: keyboardViewEndFrame.height - view.safeAreaInsets.bottom - (navigationController?.tabBarController?.tabBar.frame.size.height)!, right: 15)
+            textView.textContainerInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
         } else {
-            textView.textContainerInset = UIEdgeInsets(top: 20, left: 20, bottom: keyboardViewEndFrame.height - view.safeAreaInsets.bottom - (navigationController?.tabBarController?.tabBar.frame.size.height)!, right: 20)
-//            textView.contentInset = UIEdgeInsets(top: 0, left: 15, bottom: keyboardViewEndFrame.height - view.safeAreaInsets.bottom - (navigationController?.tabBarController?.tabBar.frame.size.height)!, right: 15)
+            textView.textContainerInset = UIEdgeInsets(top: 20, left: 20, bottom: keyboardViewEndFrame.height - view.safeAreaInsets.bottom - (navigationController?.tabBarController?.tabBar.frame.size.height ?? 0), right: 20)
         }
         
         textView.scrollIndicatorInsets = textView.textContainerInset
