@@ -128,7 +128,7 @@ Focused Topics: UNUserNotificationCenter, requesting permission for notification
 * Note: P21 Challenge 3 adds daily reminder notifications to P15 C3.
 
 ## Consolidation Projects:
-Challenge/Milestone projects that cover multiple projects and the topics learned.
+Challenge/Milestone projects created from scratch to implement topics learned spanning multiple projects.
 
 ### CP1 (Consolidation of P1-3): Flag Viewer
 App that lists names and images of country flags created using TableViews, that when selected will view the flag in larger detail in another ViewController and have the functionality to share the image using UIActivityViewController.
@@ -147,3 +147,6 @@ App that lists countries that when selected will show detailed information about
 
 ### CP6 (Consolidation of P16-18): Ghost Pac Hunt
 Shooting gallery type game to help Pac-man by shooting the ghosts. 
+
+### CP7 (Consolidation of P19-21): Notes
+Recreation of Apple's iOS Notes app.
