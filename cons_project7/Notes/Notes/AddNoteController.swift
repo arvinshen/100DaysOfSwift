@@ -15,6 +15,7 @@ class AddNoteController: UIViewController {
     weak var delegate: AddNoteControllerDelegate?
     var notes = [Note]()
     var index = 0
+    var savedWithDone = false
     
     let textView: UITextView = {
         let tv = UITextView()
@@ -27,6 +28,9 @@ class AddNoteController: UIViewController {
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        if savedWithDone {
+            return
+        }
         save()
     }
 
@@ -60,6 +64,7 @@ class AddNoteController: UIViewController {
 
     // MARK: - Selectors
     @objc func done() {
+        savedWithDone = true
         view.endEditing(true)
         save()
     }

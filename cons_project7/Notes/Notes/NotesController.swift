@@ -16,6 +16,7 @@ class NotesController: UITableViewController, AddNoteControllerDelegate {
 
     override func viewWillAppear(_ animated: Bool) {
         viewWillAppearNavigationControllerSettings()
+        viewWillAppearTabBarControllerSettings()
         tableView.reloadData()
     }
     
@@ -52,13 +53,20 @@ class NotesController: UITableViewController, AddNoteControllerDelegate {
     // MARK: - Tab Bar Controller
 
     func configureTabBarController() {
-        navigationController?.tabBarItem.title = "\(notes.count) Notes"
         navigationController?.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -15)
         tabBarController?.tabBar.isTranslucent = false
         tabBarController?.tabBar.tintColor = .systemYellow
         tabBarController?.tabBar.clipsToBounds = true
 //        tabBarController?.viewControllers?.append(self)
 //            .tabBarItem.image = UIImage.init(named: "square.and.pencil")
+    }
+    
+    func viewWillAppearTabBarControllerSettings() {
+        if notes.count != 1 {
+            navigationController?.tabBarItem.title = "\(notes.count) Notes"
+        } else {
+            navigationController?.tabBarItem.title = "\(notes.count) Note"
+        }
     }
     
     // MARK: - Selectors
@@ -82,7 +90,7 @@ extension NotesController: UISearchResultsUpdating {
         return searchController.searchBar.text?.isEmpty ?? true
     }
     
-    var isFilter: Bool {
+    var isFiltering: Bool {
         return searchController.isActive && !isSearchBarEmpty
     }
     
@@ -110,23 +118,42 @@ extension NotesController {
         tableView.layer.cornerRadius = 13
         tableView.layer.masksToBounds = true
         tableView.tableFooterView = UIView()
+        NSLayoutConstraint.activate([
+            tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 500)
+        ])
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if isFiltering {
+            return filteredNotes.count
+        }
         return notes.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
-        cell.textLabel?.text = notes[indexPath.row].firstLine
-        cell.detailTextLabel?.text = notes[indexPath.row].text
+        
+        let note: Note
+        if isFiltering {
+            note = filteredNotes[indexPath.row]
+        } else {
+            note = notes[indexPath.row]
+        }
+        
+        cell.textLabel?.text = note.firstLine
+        cell.detailTextLabel?.text = note.text
+        
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(identifier: "Note") as? AddNoteController {
+            if isFiltering {
+                vc.textView.text = filteredNotes[indexPath.row].text
+            } else {
+                vc.textView.text = notes[indexPath.row].text
+            }
             vc.index = indexPath.row
-            vc.textView.text = notes[indexPath.row].text
             vc.notes = notes
             vc.delegate = self
             navigationController?.pushViewController(vc, animated: true)
