@@ -127,6 +127,12 @@ Sends reminders to user's lock screen to show them information when app isn't ru
 Focused Topics: UNUserNotificationCenter, requesting permission for notifications, different kinds of notification triggers
 * Note: P21 Challenge 3 adds daily reminder notifications to P15 C3.
 
+### P22: Detect-a-Beacon
+App to detect and range beacons.
+
+Focused Topics: iBeacon, Core Location, CLBeaconRegion
+
+
 ## Consolidation Projects:
 Challenge/Milestone projects created from scratch to implement topics learned spanning multiple projects.
 
