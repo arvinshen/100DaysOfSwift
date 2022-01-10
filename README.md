@@ -132,6 +132,11 @@ App to detect and range beacons.
 
 Focused Topics: iBeacon, Core Location, CLBeaconRegion
 
+### P22: Swifty Ninja
+Game app inspired by Fruit Ninja
+
+Focused Topics: SKShapeNode, AVAudioPlayer, Physics speed, CaseIterable, removeFirst(), Action groups
+
 
 ## Consolidation Projects:
 Challenge/Milestone projects created from scratch to implement topics learned spanning multiple projects.
