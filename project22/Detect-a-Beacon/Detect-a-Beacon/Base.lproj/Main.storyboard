@@ -16,21 +16,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BEACON" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="100" translatesAutoresizingMaskIntoConstraints="NO" id="7qB-EE-T7b">
+                                <rect key="frame" x="175" y="281" width="64.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNKNOWN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mec-jm-snf">
                                 <rect key="frame" x="111" y="429" width="192" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="86l-gu-DV6">
+                                <rect key="frame" x="79" y="485" width="256" height="256"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mec-jm-snf" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="G91-ef-dbn"/>
-                            <constraint firstItem="mec-jm-snf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="K27-tV-6NR"/>
+                            <constraint firstItem="mec-jm-snf" firstAttribute="centerY" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="3xv-5q-p8n"/>
+                            <constraint firstItem="mec-jm-snf" firstAttribute="top" secondItem="7qB-EE-T7b" secondAttribute="bottom" constant="100" id="Avx-FE-Pye"/>
+                            <constraint firstItem="mec-jm-snf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HHQ-DW-NHj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="86l-gu-DV6" secondAttribute="bottom" constant="121" id="ZyP-D5-u8S"/>
+                            <constraint firstItem="mec-jm-snf" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="aue-Fc-uT6"/>
+                            <constraint firstItem="86l-gu-DV6" firstAttribute="centerX" secondItem="mec-jm-snf" secondAttribute="centerX" id="bed-MH-Di2"/>
+                            <constraint firstItem="mec-jm-snf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dcf-BR-fUl"/>
+                            <constraint firstItem="7qB-EE-T7b" firstAttribute="top" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="237" id="eyi-Ly-NiG"/>
+                            <constraint firstItem="86l-gu-DV6" firstAttribute="top" secondItem="mec-jm-snf" secondAttribute="bottom" constant="8" symbolic="YES" id="rAo-3D-awC"/>
+                            <constraint firstItem="7qB-EE-T7b" firstAttribute="centerX" secondItem="mec-jm-snf" secondAttribute="centerX" id="wIu-vk-4rU"/>
+                            <constraint firstItem="86l-gu-DV6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="yei-vl-s0h"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="beaconID" destination="7qB-EE-T7b" id="BGh-5F-1Bd"/>
+                        <outlet property="distanceRadius" destination="86l-gu-DV6" id="Dp4-ZX-52O"/>
                         <outlet property="distanceReading" destination="mec-jm-snf" id="Jgq-LN-zLW"/>
                     </connections>
                 </viewController>
