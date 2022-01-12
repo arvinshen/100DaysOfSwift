@@ -41,6 +41,10 @@ class GameScene: SKScene {
     var nextSequenceQueued = true  // Boolean for when all enemies are destroyed and ready to create more.
     
     var isGameEnded = false
+    
+    var randomXVelocitySlow = 0
+    var randomXVelocityFast = 0
+    let randomYVelocityRange = 24...32
 
     let width = UIScreen.main.bounds.width
     let height = UIScreen.main.bounds.height
@@ -122,7 +126,7 @@ class GameScene: SKScene {
         let nodesAtPoint = nodes(at: location)
         
         for case let node as SKSpriteNode in nodesAtPoint {
-            if node.name == "enemy" {
+            if node.name?.hasPrefix("enemy") == true {
                 // destroy penguin
                 // 1. Create a particle effect over the penguin
                 if let emitter = SKEmitterNode(fileNamed: "sliceHitEnemy") {
@@ -130,23 +134,27 @@ class GameScene: SKScene {
                     addChild(emitter)
                 }
                 
-                // 2. Clear its node name so that it can't be swiped repeatedly
+                // 2. Add to player's score.
+                if node.name?.hasSuffix("Bonus") == true {
+                    score += 3
+                } else {
+                    score += 1
+                }
+                
+                // 3. Clear its node name so that it can't be swiped repeatedly
                 node.name = ""
                 
-                // 3. Disable the isDynamic of its physics body so that it doesn't carry on falling.
+                // 4. Disable the isDynamic of its physics body so that it doesn't carry on falling.
                 node.physicsBody?.isDynamic = false
                 
-                // 4. Make the penguin sclae out and fade out at the same time.
+                // 5. Make the penguin scale out and fade out at the same time.
                 let scaleOut = SKAction.scale(by: 0.001, duration: 0.2)
                 let fadeOut = SKAction.fadeOut(withDuration: 0.2)
                 let group = SKAction.group([scaleOut, fadeOut])
                 
-                // 5. After making the penguin scale out and fade out, we should remove it from the scene.
+                // 6. After making the penguin scale out and fade out, we should remove it from the scene.
                 let seq = SKAction.sequence([group, .removeFromParent()])
                 node.run(seq)
-                
-                // 6. Add one to the player's score.
-                score += 1
                 
                 // 7. Remove the enemy from our activeEnemies array.
                 if let index = activeEnemies.firstIndex(of: node) {
@@ -189,7 +197,6 @@ class GameScene: SKScene {
         
         isGameEnded = true
         physicsWorld.speed = 0
-        isUserInteractionEnabled = false
         
         bombSoundEffect?.stop()
         bombSoundEffect = nil
@@ -198,6 +205,35 @@ class GameScene: SKScene {
             livesImages[0].texture = SKTexture(imageNamed: "sliceLifeGone")
             livesImages[1].texture = SKTexture(imageNamed: "sliceLifeGone")
             livesImages[2].texture = SKTexture(imageNamed: "sliceLifeGone")
+        }
+        
+        let gameOver = SKSpriteNode(imageNamed: "gameOver")
+        gameOver.position = CGPoint(x: width / 2, y: height / 2 + 50)
+        gameOver.zPosition = 4
+        addChild(gameOver)
+        
+        let newGame = SKSpriteNode(imageNamed: "newGame")
+        newGame.position = CGPoint(x: width / 2, y: height / 2 - 50)
+        newGame.zPosition = 4
+        newGame.name = "ng"
+        addChild(newGame)
+    }
+    
+    func loadGame() {
+        if let view = self.view {
+            // Load the SKScene from 'GameScene.sks'
+            if let scene = SKScene(fileNamed: "GameScene") {
+                // Set the scale mode to scale to fit the window
+                scene.scaleMode = .aspectFill
+                
+                // Present the scene
+                view.presentScene(scene)
+            }
+            
+            view.ignoresSiblingOrder = true
+            
+            view.showsFPS = true
+            view.showsNodeCount = true
         }
     }
     
@@ -221,12 +257,22 @@ class GameScene: SKScene {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
+        let location = touch.location(in: self)
         
+        if isGameEnded {
+            let touchedNodes = nodes(at: location)
+            
+            for node in touchedNodes {
+                if node.name == "ng" {
+                    loadGame()
+                }
+            }
+        }
+                
         // 1. Remove all existing points in the activeSlicePoints array, because we're starting fresh.
         activeSlicePoints.removeAll(keepingCapacity: true)
         
         // 2. Get the touch location and add it to the activeSlicePoints array.
-        let location = touch.location(in: self)
         activeSlicePoints.append(location)
         
         // 3. Call redrawActiveSlice() method to clear the slice shapes.
@@ -274,7 +320,7 @@ class GameScene: SKScene {
         var enemyType = Int.random(in: 0...6)
         
         if forceBomb == .never {
-            enemyType = 1
+            enemyType = 2
         } else if forceBomb == .always {
             enemyType = 0
         }
@@ -309,10 +355,18 @@ class GameScene: SKScene {
                 emitter.position = CGPoint(x: 76, y: 64)
                 enemy.addChild(emitter)
             }
+        } else if enemyType == 1 {
+            enemy = SKSpriteNode(imageNamed: "seal")
+            run(SKAction.playSoundFileNamed("launch.caf", waitForCompletion: false))
+            enemy.name = "enemyBonus"
+            randomXVelocitySlow = Int.random(in: 8...15)
+            randomXVelocityFast = Int.random(in: 12...18)
         } else {
             enemy = SKSpriteNode(imageNamed: "penguin")
             run(SKAction.playSoundFileNamed("launch.caf", waitForCompletion: false))
             enemy.name = "enemy"
+            randomXVelocitySlow = Int.random(in: 3...5)
+            randomXVelocityFast = Int.random(in: 8...15)
         }
         
         // 1. Give the enemy a random position off the bottom edge of the screen.
@@ -325,17 +379,17 @@ class GameScene: SKScene {
 
         // 3. Create a random X horizontal velocity that takes into account the enemy's position.
         if randomPosition.x < (width / 4) {
-            randomXVelocity = Int.random(in: 8...15)
+            randomXVelocity = randomXVelocityFast
         } else if randomPosition.x < (width / 2) {
-            randomXVelocity = Int.random(in: 3...5)
+            randomXVelocity = randomXVelocitySlow
         } else if randomPosition.x < (width * 3 / 4) {
-            randomXVelocity = -Int.random(in: 3...5)
+            randomXVelocity = -randomXVelocitySlow
         } else {
-            randomXVelocity = -Int.random(in: 8...15)
+            randomXVelocity = -randomXVelocityFast
         }
         
         // 4. Create a random Y vertical velocity to make things fly up at different speeds.
-        let randomYVelocity = Int.random(in: 24...32)
+        let randomYVelocity = Int.random(in: randomYVelocityRange)
         
         // 5. Give all enemies a circular physics body where the collisionBitMask is set to 0 so they don't collide.
         enemy.physicsBody = SKPhysicsBody(circleOfRadius: 64)
@@ -376,7 +430,7 @@ class GameScene: SKScene {
                 if node.position.y < -140 {
                     node.removeAllActions()
                     
-                    if node.name == "enemy" {
+                    if node.name?.hasPrefix("enemy") == true {
                         node.name = ""
                         subtractLife()
                         
