@@ -147,6 +147,11 @@ App to show user's chosen photos in a collection view, that when adding the phot
 
 Focused Topics: Multipeer Connectivity/Networking
 
+### P26: Marble Maze
+A rolling ball game for iPad using the accelerometer (i.e. player's tilt device to roll the ball in the tilted direction) to reach the goal while avoiding holes.
+
+Focused Topics: CoreMotion, accelerometer, creating custom physics bitmasks (categoryBitMask, collisionBitMask, contactBitMask), CMMotionManager,
+
 
 ## Consolidation Projects:
 Challenge/Milestone projects created from scratch to implement topics learned spanning multiple projects.
