@@ -140,7 +140,12 @@ Focused Topics: SKShapeNode, AVAudioPlayer, Physics speed, CaseIterable, removeF
 ### P24: Swift Strings
 Sandbox playground for Swift Strings
 
-Focused topics: How strings work differently from arrays, writing extensions for String, using functions as closures, how NSAttributedString lets us ad formatting to strings. 
+Focused Topics: How strings work differently from arrays, writing extensions for String, using functions as closures, how NSAttributedString lets us ad formatting to strings. 
+
+### P25: Selfie Share
+App to show user's chosen photos in a collection view, that when adding the photo will also automatically send it to any other devices the user's device is currently connected to, and any photos they select will appear for the user.
+
+Focused Topics: Multipeer Connectivity/Networking
 
 
 ## Consolidation Projects:
