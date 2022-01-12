@@ -152,6 +152,10 @@ A rolling ball game for iPad using the accelerometer (i.e. player's tilt device 
 
 Focused Topics: CoreMotion, accelerometer, creating custom physics bitmasks (categoryBitMask, collisionBitMask, contactBitMask), CMMotionManager,
 
+### P27: Core Graphics
+App that creates Core Graphics drawings when a button is tapped (sandbox for Core Graphics).
+
+Focused Topics: Core Graphics, UIGraphicsImageRenderer, drawing fills and strokes, insetting a CGRect
 
 ## Consolidation Projects:
 Challenge/Milestone projects created from scratch to implement topics learned spanning multiple projects.
