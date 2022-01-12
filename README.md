@@ -166,3 +166,6 @@ Shooting gallery type game to help Pac-man by shooting the ghosts.
 
 ### CP7 (Consolidation of P19-21): Notes
 Recreation of Apple's iOS Notes app.
+
+### CP8 (Consolidation of P22-24): Swift Extensions
+Three Swift languange extensions.
