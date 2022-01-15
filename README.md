@@ -1,4 +1,5 @@
 <div id="top"></div>
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -23,7 +24,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Hacking With Swift - 100 Days of Swift</h3>
+<h3 align="center">100 Days of Swift</h3>
 
   <p align="center">
     A free education program to learn Swift over 100 days building real iOS apps.
@@ -68,56 +69,57 @@
 ## General Info
 A free education program to learn Swift over 100 days building real iOS apps.
 
-## Projects:
-100 Days of Swift has 40 projects total with each having 3 challenges (C1, C2, C3) to improve upon the code.
+### Projects:
+100 Days of Swift has 40 projects total with each having 3 challenges to improve upon the code.
 
-<ol>
-  <li>[P1: Storm Viewer](https://github.com/arvinshen/100DaysOfSwift/tree/main/project1)</li>
-  <li>[P2: Guess The Flag](https://github.com/arvinshen/100DaysOfSwift/tree/main/project2)</li>
-  <li>[P3: Social Media](https://github.com/arvinshen/100DaysOfSwift/tree/main/project3)</li>
-  <li>[P4: Web Browser](https://github.com/arvinshen/100DaysOfSwift/tree/main/project4)</li>
-  <li>[P5: Word Scramble](https://github.com/arvinshen/100DaysOfSwift/tree/main/project5)</li>
-  <li>[P6: Auto Layout](https://github.com/arvinshen/100DaysOfSwift/tree/main/project6)</li>
-  <li>[P7: Whitehouse Petitions](https://github.com/arvinshen/100DaysOfSwift/tree/main/project7)</li>
-  <li>[P8: Swifty Words](https://github.com/arvinshen/100DaysOfSwift/tree/main/project8)</li>
-  <li>[P9: Grand Central Dispatch](https://github.com/arvinshen/100DaysOfSwift/tree/main/project9)</li>
-  <li>[P10: Names to Faces](https://github.com/arvinshen/100DaysOfSwift/tree/main/project10)</li>
-  <li>[P11: Pachinko](https://github.com/arvinshen/100DaysOfSwift/tree/main/project11)</li>
-  <li>[P12: UserDefaults](https://github.com/arvinshen/100DaysOfSwift/tree/main/project12)</li>
-  <li>[P13: Instafilter](https://github.com/arvinshen/100DaysOfSwift/tree/main/project13)</li>
-  <li>[P14: Whack-a-Penguin](https://github.com/arvinshen/100DaysOfSwift/tree/main/project14)</li>
-  <li>[P15: Animation](https://github.com/arvinshen/100DaysOfSwift/tree/main/project15)</li>
-  <li>[P16: Capital Cities](https://github.com/arvinshen/100DaysOfSwift/tree/main/project16)</li>
-  <li>[P17: Space Race](https://github.com/arvinshen/100DaysOfSwift/tree/main/project17)</li>
-  <li>[P18: Debugging](https://github.com/arvinshen/100DaysOfSwift/tree/main/project18)</li>
-  <li>[P19: JavaScript Injection](https://github.com/arvinshen/100DaysOfSwift/tree/main/project19)</li>
-  <li>[P20: Fireworks Night](https://github.com/arvinshen/100DaysOfSwift/tree/main/project20)</li>
-  <li>[P21: Local Notifications](https://github.com/arvinshen/100DaysOfSwift/tree/main/project21)</li>
-  <li>[P22: Detect-a-Beacon](https://github.com/arvinshen/100DaysOfSwift/tree/main/project22)</li>
-  <li>[P23: Swifty Ninja](https://github.com/arvinshen/100DaysOfSwift/tree/main/project23)</li>
-  <li>[P24: Swift Strings](https://github.com/arvinshen/100DaysOfSwift/tree/main/project24)</li>
-  <li>[P25: Selfie Share](https://github.com/arvinshen/100DaysOfSwift/tree/main/project25)</li>
-  <li>[P26: Marble Maze](https://github.com/arvinshen/100DaysOfSwift/tree/main/project26)</li>
-  <li>[P27: Core Graphics](https://github.com/arvinshen/100DaysOfSwift/tree/main/project27)</li>
-  <li>[P28: Secret Swift](https://github.com/arvinshen/100DaysOfSwift/tree/main/project28)</li>
-  <li>[P29: Exploding Monkeys](https://github.com/arvinshen/100DaysOfSwift/tree/main/project29)</li>
-  <li>[P30: Instruments](https://github.com/arvinshen/100DaysOfSwift/tree/main/project30)</li>  
-</ol>
+<ul>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project1">P1: Storm Viewer</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project2">P2: Guess The Flag</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project3">P3: Social Media</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project4">P4: Web Browser</a>"</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project5">P5: Word Scramble</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project6">P6: Auto Layout</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project7">P7: Whitehouse Petitions</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project8">P8: Swifty Words</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project9">P9: Grand Central Dispatch</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project10">P10: Names to Faces</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project11">P11: Pachinko</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project12">P12: UserDefaults</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project13">P13: Instafilter</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project14">P14: Whack-a-Penguin</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project15">P15: Animation</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project16">P16: Capital Cities</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project17">P17: Space Race</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project18">P18: Debugging</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project19">P19: JavaScript Injection</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project20">P20: Fireworks Night</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project21">P21: Local Notifications</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project22">P22: Detect-a-Beacon</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project23">P23: Swifty Ninja</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project24">P24: Swift Strings</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project25">P25: Selfie Share</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project26">P26: Marble Maze</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project27">P27: Core Graphics</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project28">P28: Secret Swift</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project29">P29: Exploding Monkeys</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project30">P30: Instruments</a></li>  
+</ul>
 
-## Consolidation Projects:
+### Consolidation Projects:
 Challenge/Milestone projects created from scratch to implement topics learned spanning multiple projects.
 
-<ol>
-  <li>[CP1: Flag Viewer](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project1)</li>
-  <li>[CP2: Shopping List](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project2)</li>
-  <li>[CP3: Hangman](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project3)</li>
-  <li>[CP4: Photo Caption View](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project4)</li>
-  <li>[CP5: CountryDB](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project5)</li>
-  <li>[CP6: Ghost Pac Hunt](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project6)</li>
-  <li>[CP7: Notes](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project7)</li>
-  <li>[CP8: Swift Extensions](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project8)</li>
-  <li>[CP9: ](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project9)</li>
-  <li>[CP10: ](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project10)</li>
+<ul>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project1">CP1: Flag Viewer</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project2">CP2: Shopping List</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project3">CP3: Hangman</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project4">CP4: Photo Caption View</a>"</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project5">CP5: CountryDB</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project6">CP6: Ghost Pac Hunt</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project7">CP7: Notes</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project8">CP8: Swift Extensions</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project9">CP9: </a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project10">CP10: </a></li>
+</ul>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
