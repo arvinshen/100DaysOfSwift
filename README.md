@@ -1,185 +1,194 @@
-# Hacking With Swift - 100 Days of Swift
+<div id="top"></div>
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Table of Contents
-* [General Info](#general-info)
-* [Projects](#projects)
-* [Consolidation Projects](#consolidation-projects)
 
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/arvinshen/100DaysOfSwift">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">Hacking With Swift - 100 Days of Swift</h3>
+
+  <p align="center">
+    A free education program to learn Swift over 100 days building real iOS apps.
+    <br />
+    <a href="https://github.com/arvinshen/100DaysOfSwift"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/arvinshen/100DaysOfSwift">View Demo</a>
+    ·
+    <a href="https://github.com/arvinshen/100DaysOfSwift/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/arvinshen/100DaysOfSwift/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#general-info">General Info</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- GENERAL INFO -->
 ## General Info
 A free education program to learn Swift over 100 days building real iOS apps.
-
-* Disclosure: iPhone X<sub>R</sub> is the default device used for the UI layout. Early projects' UI layout are not dynamic and may break the app's functionality if other devices are used and/or orientation is changed. Projects 1-12 challenges completed on original while challenges for projects 13 and onward are done on a copy of the project.
 
 ## Projects:
 100 Days of Swift has 40 projects total with each having 3 challenges (C1, C2, C3) to improve upon the code.
 
-### P1: Storm Viewer
-App that lets users scroll through lists of images, then select one to view.
-
-Focused Topics: Table views, image views, app bundles, FileManager, typecasting, view controllers, storyboards, outlets, Auto Layout, and loading images as UIImage, etc.
-
-### P2: Guess The Flag
-Game that shows the name of a country with several random flags to users and asks the player to choose the correct flag belonging to that particular country named.
-
-Focused Topics: Asset catalogs, buttons, colors, @IBAction, UIAlertController, etc.
-
-### P3: Social Media
-Project 1 Update to add share/save image function via UIActivityViewController.
-
-Focused Topics: Navigation bar, UIBarButtonItem and UIActivityViewController.
-
-### P4: Web Browser
-Simple app that allows users to browse the web.
-
-Focused Topics: WKWebView, loadView(), action sheets, delegation, URL, URLRequest, UIToolbar, UIProgressView, key-value observing, etc.
-
-### P5: Word Scramble
-App that asks users to make words with the letters of a given word (i.e. make anagrams out of a word).
-
-Focused Topics: UITableView (reloading table view data and insert rows), UIAlertController (accepting user input), Strings & UTF-16, closures, NSRange, and capture lists.
-
-### P6: Auto Layout
-* a. Project 2 Update to fix app in landscape mode using Auto Layout.
-* b. Simple app where we create views by hand and position them using Auto Layout.
-
-Focused Topics: Auto Layout (metrics, priorities, Visual Formatting Language, anchors).
-
-### P7: Whitehouse Petitions
-App that shows the Whitehouse petitions in the US.
-
-Focused Topics: Downloading/parsing JSON with Data, Codable, UITabBarController, UIStoryBoard
-* Note: Added a dynamic filtering search bar using UISearchController and UISearchBar to improve the functionality of Project 7 Challenge #2 (Not taught in Hacking With Swift up to this point).
-
-### P8: Swifty Words
-Word game app based on the popular indie game 7 Little Words.
-
-Focused Topics: Building iOS layouts programmatically using UIKit (e.g. UILabel, UIButton, UITextField, NSLayoutConstraint.activate(), safeAreaLayoutGuide, layoutMarginsGuide, etc.), enumerated(), joined(), replacingOccurrences(), and more. 
-
-### P9: Grand Central Dispatch
-Project 7 Update to download/parse JSON data asynchronously with the user interface.
-
-Focused Topics: Grand Central Dispatch, performSelector(), Quality of Service
-* Note: P9 Challenges 1, 2, 3 modifies P1, P8, P7 respectively.
-
-### P10: Names to Faces
-App to help remember the names and faces of people met.
-
-Focused Topics: UICollectionView, UIImagePickerController, UUID, NSObject subclases, fatalError()
-* Note: P10 Challenge 3 modifies a copy of P1 to use a collection view controller rather than a table view controller.
-
-### P11: Pachinko
-A simple game app based on Pachinko
-
-Focused Topics: SpriteKit, physics, blend modes, radians and CGFloat.
-
-### P12: UserDefaults
-Project 10 Update to fix bug where names/faces added to app don't get saved.
-
-Focused Topics: UserDefaults (saving data and user settings / backups and restores data), NSCoding, Codable
-* Note: P12 Challenge 1, 2, 3 modifies copies of P3, P6a, P5 respectively.
-
-### P13: Instafilter
-App that allows users to choose a photo from their album, change and apply filters, and save the processed image back to photo album.
-
-Focused Topics: Core Image, UISlider, and Writing images to iOS photo album.
-
-### P14: Whack-a-Penguin
-App to play a game inspired by whack-a-mole.
-
-Focused Topics: SKCropNode, SKTexture, asyncAfter(), New SKAction types
-
-### P15: Animation
-App that performs animations when a button is tapped (sandbox for coding animations).
-
-Focused Topics: Core Animation, animate(withDuration:), Spring animations, Alpha values, CGAffineTransform
-* Note: P15 Challenge 1, 2, 3 modifies copies of P8, P13, P12 C2 respectively.
-
-### P16: Capital Cities
-App that shows information about capital cities that have placemarks on the map.
-
-Focused Topics: MapKit, MKMapView, MKAnnotation, MKPinAnnotationView, CLLocationCoordinate2D
-
-### P17: Space Race
-Simple survival game where the player pilots a spaceship through fields of space junk.
-
-Focused Topics: Per-pixel collision detection, advanced particle systems, Timer, linear and angular damping
-
-### P18: Debugging
-Throwaway sandbox code going over debugging tools.
-
-Focused Topics: print(), assert(), Breakpoints (exception & conditional breakpoints), View debugging
-* Note: P18 Challenge 1 & 2 adds exception breakpoint and assert() respectively; Challenge 3 adds conditional breakpoint.
-
-### P19: JavaScript Injection
-A Safari extention which embeds a version of the app directly inside Safari's action menu, then manipulate Safari data (Capable of reading the URL and page title of the website the user visited, then show a large text area they can type JavaScript into and when extension is dismissed, it'll execute that JavaScript in Safari.)
-
-Focused Topics: Extensions, NotificationCenter class, UITextView, and building a bridge between JavaScript and Swift functionalities.
-* Note: Added a Protocol and Delegate to pass back data from current view controller to previous view controller for Project 19 Challenge #3 (Not taught in Hacking With Swift up to this point). 
-
-### P20: Fireworks Night
-Game where players will need to select and detonate groups of fireworks of the same color, which means tapping and swiping around the screen.
-
-Focused Topics: follow(), UIBezierPath, for case let, Color blending, Shake gesture
-
-### P21: Local Notifications
-Sends reminders to user's lock screen to show them information when app isn't running.
-
-Focused Topics: UNUserNotificationCenter, requesting permission for notifications, different kinds of notification triggers
-* Note: P21 Challenge 3 adds daily reminder notifications to P15 C3.
-
-### P22: Detect-a-Beacon
-App to detect and range beacons.
-
-Focused Topics: iBeacon, Core Location, CLBeaconRegion
-
-### P23: Swifty Ninja
-Game app inspired by Fruit Ninja
-
-Focused Topics: SKShapeNode, AVAudioPlayer, Physics speed, CaseIterable, removeFirst(), Action groups
-
-### P24: Swift Strings
-Sandbox playground for Swift Strings
-
-Focused Topics: How strings work differently from arrays, writing extensions for String, using functions as closures, how NSAttributedString lets us ad formatting to strings. 
-
-### P25: Selfie Share
-App to show user's chosen photos in a collection view, that when adding the photo will also automatically send it to any other devices the user's device is currently connected to, and any photos they select will appear for the user.
-
-Focused Topics: Multipeer Connectivity/Networking
-
-### P26: Marble Maze
-A rolling ball game for iPad using the accelerometer (i.e. player's tilt device to roll the ball in the tilted direction) to reach the goal while avoiding holes.
-
-Focused Topics: CoreMotion, accelerometer, creating custom physics bitmasks (categoryBitMask, collisionBitMask, contactBitMask), CMMotionManager,
-
-### P27: Core Graphics
-App that creates Core Graphics drawings when a button is tapped (sandbox for Core Graphics).
-
-Focused Topics: Core Graphics, UIGraphicsImageRenderer, drawing fills and strokes, insetting a CGRect
+<ol>
+  <li>[P1: Storm Viewer](https://github.com/arvinshen/100DaysOfSwift/tree/main/project1)</li>
+  <li>[P2: Guess The Flag](https://github.com/arvinshen/100DaysOfSwift/tree/main/project2)</li>
+  <li>[P3: Social Media](https://github.com/arvinshen/100DaysOfSwift/tree/main/project3)</li>
+  <li>[P4: Web Browser](https://github.com/arvinshen/100DaysOfSwift/tree/main/project4)</li>
+  <li>[P5: Word Scramble](https://github.com/arvinshen/100DaysOfSwift/tree/main/project5)</li>
+  <li>[P6: Auto Layout](https://github.com/arvinshen/100DaysOfSwift/tree/main/project6)</li>
+  <li>[P7: Whitehouse Petitions](https://github.com/arvinshen/100DaysOfSwift/tree/main/project7)</li>
+  <li>[P8: Swifty Words](https://github.com/arvinshen/100DaysOfSwift/tree/main/project8)</li>
+  <li>[P9: Grand Central Dispatch](https://github.com/arvinshen/100DaysOfSwift/tree/main/project9)</li>
+  <li>[P10: Names to Faces](https://github.com/arvinshen/100DaysOfSwift/tree/main/project10)</li>
+  <li>[P11: Pachinko](https://github.com/arvinshen/100DaysOfSwift/tree/main/project11)</li>
+  <li>[P12: UserDefaults](https://github.com/arvinshen/100DaysOfSwift/tree/main/project12)</li>
+  <li>[P13: Instafilter](https://github.com/arvinshen/100DaysOfSwift/tree/main/project13)</li>
+  <li>[P14: Whack-a-Penguin](https://github.com/arvinshen/100DaysOfSwift/tree/main/project14)</li>
+  <li>[P15: Animation](https://github.com/arvinshen/100DaysOfSwift/tree/main/project15)</li>
+  <li>[P16: Capital Cities](https://github.com/arvinshen/100DaysOfSwift/tree/main/project16)</li>
+  <li>[P17: Space Race](https://github.com/arvinshen/100DaysOfSwift/tree/main/project17)</li>
+  <li>[P18: Debugging](https://github.com/arvinshen/100DaysOfSwift/tree/main/project18)</li>
+  <li>[P19: JavaScript Injection](https://github.com/arvinshen/100DaysOfSwift/tree/main/project19)</li>
+  <li>[P20: Fireworks Night](https://github.com/arvinshen/100DaysOfSwift/tree/main/project20)</li>
+  <li>[P21: Local Notifications](https://github.com/arvinshen/100DaysOfSwift/tree/main/project21)</li>
+  <li>[P22: Detect-a-Beacon](https://github.com/arvinshen/100DaysOfSwift/tree/main/project22)</li>
+  <li>[P23: Swifty Ninja](https://github.com/arvinshen/100DaysOfSwift/tree/main/project23)</li>
+  <li>[P24: Swift Strings](https://github.com/arvinshen/100DaysOfSwift/tree/main/project24)</li>
+  <li>[P25: Selfie Share](https://github.com/arvinshen/100DaysOfSwift/tree/main/project25)</li>
+  <li>[P26: Marble Maze](https://github.com/arvinshen/100DaysOfSwift/tree/main/project26)</li>
+  <li>[P27: Core Graphics](https://github.com/arvinshen/100DaysOfSwift/tree/main/project27)</li>
+  <li>[P28: Secret Swift](https://github.com/arvinshen/100DaysOfSwift/tree/main/project28)</li>
+  <li>[P29: Exploding Monkeys](https://github.com/arvinshen/100DaysOfSwift/tree/main/project29)</li>
+  <li>[P30: Instruments](https://github.com/arvinshen/100DaysOfSwift/tree/main/project30)</li>  
+</ol>
 
 ## Consolidation Projects:
 Challenge/Milestone projects created from scratch to implement topics learned spanning multiple projects.
 
-### CP1 (Consolidation of P1-3): Flag Viewer
-App that lists names and images of country flags created using TableViews, that when selected will view the flag in larger detail in another ViewController and have the functionality to share the image using UIActivityViewController.
+<ol>
+  <li>[CP1: Flag Viewer](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project1)</li>
+  <li>[CP2: Shopping List](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project2)</li>
+  <li>[CP3: Hangman](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project3)</li>
+  <li>[CP4: Photo Caption View](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project4)</li>
+  <li>[CP5: CountryDB](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project5)</li>
+  <li>[CP6: Ghost Pac Hunt](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project6)</li>
+  <li>[CP7: Notes](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project7)</li>
+  <li>[CP8: Swift Extensions](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project8)</li>
+  <li>[CP9: ](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project9)</li>
+  <li>[CP10: ](https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project10)</li>
 
-### CP2 (Consolidation of P4-6): Shopping List
-App that lets you add items to create a shopping list.
 
-### CP3 (Consolidation of P7-9): Hangman
-App to play the guessing game, Hangman.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### CP4 (Consolidation of P10-12): Photo Caption View
-App that lets users take and save pictures, add captions and view them in a table view. Tapping the caption shows the picture in a new view controller.
 
-### CP5 (Consolidation of P13-15): CountryDB (Country Database)
-App that lists countries that when selected will show detailed information about the country.
 
-### CP6 (Consolidation of P16-18): Ghost Pac Hunt
-Shooting gallery type game to help Pac-man by shooting the ghosts. 
+<!-- GETTING STARTED -->
+## Getting Started
 
-### CP7 (Consolidation of P19-21): Notes
-Recreation of Apple's iOS Notes app.
+Follow these simple steps to get a local copy up and running.
 
-### CP8 (Consolidation of P22-24): Swift Extensions
-Three Swift languange extensions.
+### Prerequisites
+
+This project uses [Xcode](https://developer.apple.com/xcode/). Check to see if you have Xcode installed locally before proceeding.
+
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/arvinshen/100DaysOfSwift.git
+   ```
+
+### Usage
+
+2. Go to any project folder and open file project_title.xcodeproj
+
+3. Select an iOS simulator and run the application.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See [LICENSE][license-url] for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Project Link: [https://github.com/arvinshen/100DaysOfSwift](https://github.com/arvinshen/100DaysOfSwift)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* Hacking With Swift - [100 Days of Swift] by Paul Hudson
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/arvinshen/100DaysOfSwift.svg?style=for-the-badge
+[contributors-url]: https://github.com/arvinshen/100DaysOfSwift/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/arvinshen/100DaysOfSwift.svg?style=for-the-badge
+[forks-url]: https://github.com/arvinshen/100DaysOfSwift/network/members
+[stars-shield]: https://img.shields.io/github/stars/arvinshen/100DaysOfSwift.svg?style=for-the-badge
+[stars-url]: https://github.com/arvinshen/100DaysOfSwift/stargazers
+[issues-shield]: https://img.shields.io/github/issues/arvinshen/100DaysOfSwift.svg?style=for-the-badge
+[issues-url]: https://github.com/arvinshen/100DaysOfSwift/issues
+[license-shield]: https://img.shields.io/github/license/arvinshen/100DaysOfSwift.svg?style=for-the-badge
+[license-url]: https://github.com/arvinshen/100DaysOfSwift/blob/main/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/arvin-shen

@@ -42,9 +42,12 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
         if mcSession.connectedPeers.count > 0 {
             // 3. Convert the new image to a Data object.
             if let imageData = image.pngData() {
+                let textData = Data("Received from \(peerID)".utf8)
+                
                 // 4. Send it to all peers, ensuring it gets delivered.
                 do {
                     try mcSession.send(imageData, toPeers: mcSession.connectedPeers, with: .reliable)
+                    try mcSession.send(textData, toPeers: mcSession.connectedPeers, with: .reliable)
                 } catch {
                     // 5. Show an error message if there's a problem.
                     let ac = UIAlertController(title: "Send error", message: error.localizedDescription, preferredStyle: .alert)
@@ -130,6 +133,7 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
             
         case .notConnected:
             print("Not Connected: \(peerID.displayName)")
+            self.presentAlertOnMainThread(title: "\(peerID.displayName) has disconnected", message: nil, buttonTitle: "OK")
             
         @unknown default:
             print("Unknown state received: \(peerID.displayName)")        }
@@ -141,6 +145,7 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
                 self?.images.insert(image, at: 0)
                 self?.collectionView.reloadData()
             }
+            let text = String(decoding: data, as: UTF8.self)
         }
     }
     
@@ -168,3 +173,17 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
     }
 }
 
+extension UIViewController {
+    
+    func presentAlertOnMainThread(title: String?, message: String?, buttonTitle: String?, actions: [UIAlertAction]? = nil) {
+        DispatchQueue.main.async {
+            let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: buttonTitle, style: .default))
+            
+            if actions != nil {
+                actions?.forEach { ac.addAction($0) }
+            }
+            self.present(ac, animated: true)
+        }
+    }
+}
