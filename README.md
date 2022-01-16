@@ -194,3 +194,4 @@ Project Link: [https://github.com/arvinshen/100DaysOfSwift](https://github.com/a
 [license-url]: https://github.com/arvinshen/100DaysOfSwift/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/arvin-shen
+[100 Days of Swift]: https://www.hackingwithswift.com/100
