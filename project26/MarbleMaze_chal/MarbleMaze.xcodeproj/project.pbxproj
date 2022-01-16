@@ -14,6 +14,9 @@
 		8525D4B9278EB94200284F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8525D4B7278EB94200284F42 /* Main.storyboard */; };
 		8525D4BB278EB94E00284F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8525D4BA278EB94E00284F42 /* Assets.xcassets */; };
 		8525D4C5278EB9E800284F42 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8525D4C4278EB9E800284F42 /* level1.txt */; };
+		855019842793FFEC00F88AFE /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 855019812793FFEA00F88AFE /* level2.txt */; };
+		855019852793FFEC00F88AFE /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 855019822793FFEA00F88AFE /* level3.txt */; };
+		855019862793FFEC00F88AFE /* level4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 855019832793FFEB00F88AFE /* level4.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8525D4BA278EB94E00284F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8525D4BC278EB94E00284F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8525D4C4278EB9E800284F42 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		855019812793FFEA00F88AFE /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		855019822793FFEA00F88AFE /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
+		855019832793FFEB00F88AFE /* level4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level4.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				8525D4BA278EB94E00284F42 /* Assets.xcassets */,
 				8525D4BC278EB94E00284F42 /* Info.plist */,
 				8525D4C4278EB9E800284F42 /* level1.txt */,
+				855019812793FFEA00F88AFE /* level2.txt */,
+				855019822793FFEA00F88AFE /* level3.txt */,
+				855019832793FFEB00F88AFE /* level4.txt */,
 			);
 			path = MarbleMaze;
 			sourceTree = "<group>";
@@ -127,10 +136,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				855019842793FFEC00F88AFE /* level2.txt in Resources */,
+				855019852793FFEC00F88AFE /* level3.txt in Resources */,
 				8525D4B9278EB94200284F42 /* Main.storyboard in Resources */,
 				8525D4C5278EB9E800284F42 /* level1.txt in Resources */,
 				8525D4B0278EB94200284F42 /* GameScene.sks in Resources */,
 				8525D4BB278EB94E00284F42 /* Assets.xcassets in Resources */,
+				855019862793FFEC00F88AFE /* level4.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
