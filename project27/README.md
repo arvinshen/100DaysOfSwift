@@ -24,6 +24,8 @@ Core Graphics is an app that creates Core Graphics drawings when a button is tap
 * Drawing fills and strokes
 * Insetting a CGRect
 
+Note: P27 Challenge 3 modifies copy of P3 from P12 Challenge 1.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 

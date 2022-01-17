@@ -25,7 +25,7 @@ Animation is a sandbox for coding animations that performs animations when a but
 * Alpha Values
 * CGAffineTransform
 
-Note: P15 Challenge 1, 2, & 3 modifies copies of P8, P13, P12 C2 respectively.
+Note: P15 Challenge 1, 2, & 3 modifies copies of P8, P13, & P2 from P12 Challenge 2 respectively.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

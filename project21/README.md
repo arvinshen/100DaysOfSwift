@@ -23,6 +23,8 @@ Local Notifications is an app that sends reminders to the user's lock screen and
 * Requesting Permission for Notifications
 * Different Kinds of Notification Triggers
 
+Note: P21 Challenge 3 modifies a copy of P2 from P15 Challenge 3.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
