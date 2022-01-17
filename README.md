@@ -68,20 +68,39 @@
 <!-- GENERAL INFO -->
 ## General Info
 A free education program to learn Swift over 100 days building real iOS apps.
+100 Days of Swift has 40 projects total.
 
-### Projects:
-100 Days of Swift has 40 projects total with each having 3 challenges to improve upon the code.
+### Milestone Projects:
+10 Milestone projects created from scratch to implement topics learned spanning multiple projects.
 
 <ul>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project1">P1: Storm Viewer</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project2">P2: Guess The Flag</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project3">P3: Social Media</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project4">P4: Web Browser</a>"</li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project5">P5: Word Scramble</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project6">P6: Auto Layout</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project7">P7: Whitehouse Petitions</li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project8">P8: Swifty Words</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project9">P9: Grand Central Dispatch</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project01">MP1: Flag Viewer</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project02">MP2: Shopping List</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project03">MP3: Hangman</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project04">MP4: Photo Caption View</a>"</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project05">MP5: CountryDB</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project06">MP6: Ghost Pac Hunt</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project07">MP7: Notes</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project08">MP8: Swift Extensions</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project09">MP9: Meme Generator</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project10">MP10: Memo Memo</a></li>
+</ul>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Projects:
+30 projects going over specific topics each with 3 challenges at the end to build on the knowledge learned and improve the code.
+
+<ul>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project01">P1: Storm Viewer</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project02">P2: Guess The Flag</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project03">P3: Social Media</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project04">P4: Web Browser</a>"</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project05">P5: Word Scramble</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project06">P6: Auto Layout</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project07">P7: Whitehouse Petitions</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project08">P8: Swifty Words</a></li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project09">P9: Grand Central Dispatch</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project10">P10: Names to Faces</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project11">P11: Pachinko</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project12">P12: UserDefaults</a></li>
@@ -104,23 +123,6 @@ A free education program to learn Swift over 100 days building real iOS apps.
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project29">P29: Exploding Monkeys</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project30">P30: Instruments</a></li>  
 </ul>
-
-### Consolidation Projects:
-Challenge/Milestone projects created from scratch to implement topics learned spanning multiple projects.
-
-<ul>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project1">CP1: Flag Viewer</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project2">CP2: Shopping List</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project3">CP3: Hangman</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project4">CP4: Photo Caption View</a>"</li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project5">CP5: CountryDB</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project6">CP6: Ghost Pac Hunt</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project7">CP7: Notes</li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project8">CP8: Swift Extensions</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project9">CP9: </a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/cons_project10">CP10: </a></li>
-</ul>
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
