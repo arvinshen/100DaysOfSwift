@@ -71,7 +71,7 @@ A free education program to learn Swift over 100 days building real iOS apps.
 100 Days of Swift has 40 projects total.
 
 ### Milestone Projects:
-10 Milestone projects created from scratch to implement topics learned spanning multiple projects.
+10 Milestone projects created from scratch to implement topics learned spanning multiple projects. Click on a project to see more details.
 
 <ul>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project01">MP1: Flag Viewer</a></li>
@@ -89,7 +89,7 @@ A free education program to learn Swift over 100 days building real iOS apps.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Projects:
-30 projects going over specific topics each with 3 challenges at the end to build on the knowledge learned and improve the code.
+30 projects going over specific topics each with 3 challenges at the end to build on the knowledge learned and improve the code. Click on a project to see more details.
 
 <ul>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project01">P1: Storm Viewer</a></li>
