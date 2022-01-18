@@ -16,7 +16,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = MemeViewController() // initial view controller
+        
+        // embed initial view controller "MemeViewController" in a UINavigationController
+        let navigationController = UINavigationController(rootViewController: MemeViewController())
+        
+        // set navigationController as initial root view controller
+        window.rootViewController = navigationController
+        
         window.makeKeyAndVisible()
         self.window = window
     }
