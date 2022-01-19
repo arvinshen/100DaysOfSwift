@@ -21,4 +21,10 @@ enum SFSymbol {
     static let photoLibrary = UIImage(systemName: "photo.fill.on.rectangle.fill")
 }
 
+enum cgfValues {
+    static let cellContentInset = CGFloat(20)
+    static let cell = CGFloat(20)
+    static let cellContents = CGFloat(10)
+}
+
 
