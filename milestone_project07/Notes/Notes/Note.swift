@@ -8,11 +8,13 @@
 import Foundation
 
 class Note: NSObject, Codable {
-    var firstLine: String
+    var header: String
+    var body: String
     var text: String
     
-    init(firstLine: String, text: String) {
-        self.firstLine = firstLine
+    init(header: String, body: String, text: String) {
+        self.header = header
+        self.body = body
         self.text = text
     }
 }

@@ -62,15 +62,23 @@
 			children = (
 				8525D3EF278A1B8400284F42 /* AppDelegate.swift */,
 				8525D3F1278A1B8400284F42 /* SceneDelegate.swift */,
-				8525D404278A3F4500284F42 /* NotesController.swift */,
 				8525D40B278A448400284F42 /* Note.swift */,
+				8525D404278A3F4500284F42 /* NotesController.swift */,
 				8525D408278A408700284F42 /* AddNoteController.swift */,
 				8525D3F5278A1B8400284F42 /* Main.storyboard */,
 				8525D3F8278A1B9000284F42 /* Assets.xcassets */,
 				8525D3FA278A1B9000284F42 /* LaunchScreen.storyboard */,
 				8525D3FD278A1B9000284F42 /* Info.plist */,
+				8531412F2797FF1900FC6340 /* Constants */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		8531412F2797FF1900FC6340 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SC325LS73S;
 				INFOPLIST_FILE = Notes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SC325LS73S;
 				INFOPLIST_FILE = Notes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
