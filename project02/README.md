@@ -14,6 +14,11 @@
 
 Guess The Flag is a game that shows the name of a country with several random flags to users and asks the player to choose the correct flag belonging to that particular country named.
 
+#### [Challenges](https://www.hackingwithswift.com/read/2/6/wrap-up)
+>1. Try showing the player’s score in the navigation bar, alongside the flag to guess.
+>2. Keep track of how many questions have been asked, and show one final alert controller after they have answered 10. This should show their final score.
+>3. When someone chooses the wrong flag, tell them their mistake in your alert message – something like “Wrong! That’s the flag of France,” for example.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 

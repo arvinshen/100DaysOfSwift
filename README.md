@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/arvinshen/100DaysOfSwift">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">100 Days of Swift</h3>
@@ -77,7 +77,7 @@ A free education program to learn Swift over 100 days building real iOS apps.
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project01">MP1: Flag Viewer</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project02">MP2: Shopping List</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project03">MP3: Hangman</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project04">MP4: Photo Caption View</a>"</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project04">MP4: Photo Caption View</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project05">MP5: CountryDB</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project06">MP6: Ghost Pac Hunt</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/milestone_project07">MP7: Notes</li>
@@ -95,7 +95,7 @@ A free education program to learn Swift over 100 days building real iOS apps.
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project01">P1: Storm Viewer</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project02">P2: Guess The Flag</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project03">P3: Social Media</a></li>
-  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project04">P4: Web Browser</a>"</li>
+  <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project04">P4: Web Browser</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project05">P5: Word Scramble</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project06">P6: Auto Layout</a></li>
   <li><a href="https://github.com/arvinshen/100DaysOfSwift/tree/main/project07">P7: Whitehouse Petitions</li>
