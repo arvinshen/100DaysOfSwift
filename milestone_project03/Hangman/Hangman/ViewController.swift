@@ -87,7 +87,7 @@ class ViewController: UIViewController {
             buttonsView.bottomAnchor.constraint(equalTo: view.layoutMarginsGuide.bottomAnchor, constant: -20)
         ])
         
-        answerLabel.backgroundColor = .systemBlue
+//        answerLabel.backgroundColor = .systemBlue
         
         let width = 62
         let height = 101

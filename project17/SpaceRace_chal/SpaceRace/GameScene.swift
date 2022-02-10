@@ -12,6 +12,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var player: SKSpriteNode!
     var scoreLabel: SKLabelNode!
     
+    var finalScore: SKLabelNode!
+    var gameOver: SKSpriteNode!
+    var newGame: SKLabelNode!
+    
     var possibleEnemies = ["ball", "hammer", "tv"]
     var gameTimer: Timer?
     var timeInterval = 1.0
@@ -91,6 +95,34 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let touch = touches.first else { return }
+        let location = touch.location(in: self)
+        let tappedNodes = nodes(at: location)
+        
+        for node in tappedNodes {
+            if isGameOver && node.name == "newGame" {
+                // reset game
+                isGameOver = false
+                score = 0
+                numEnemies = 0
+                timeInterval = 1.0
+                
+                finalScore.removeFromParent()
+                gameOver.removeFromParent()
+                newGame.removeFromParent()
+                
+                player = SKSpriteNode(imageNamed: "player")
+                player.position = CGPoint(x: 100, y: 384)
+                player.physicsBody = SKPhysicsBody(texture: player.texture!, size: player.size)
+                player.physicsBody?.contactTestBitMask = 1
+                addChild(player)
+                
+                gameTimer = Timer.scheduledTimer(timeInterval: timeInterval, target: self, selector: #selector(createEnemy), userInfo: nil, repeats: true)
+            }
+        }
+    }
+    
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
         var location = touch.location(in: self)
@@ -127,6 +159,29 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         player.removeFromParent()
         
         isGameOver = true
+        
+        finalScore = SKLabelNode(fontNamed: "Chalkduster")
+        finalScore.text = "Final Score: \(score)"
+        finalScore.position = CGPoint(x: 512, y: 534)
+        finalScore.horizontalAlignmentMode = .center
+        finalScore.zPosition = 1
+        finalScore.fontSize = 64
+        finalScore.fontColor = .white
+        addChild(finalScore)
+        
+        gameOver = SKSpriteNode(imageNamed: "gameOver")
+        gameOver.position = CGPoint(x: 512, y: 384)
+        gameOver.zPosition = 1
+        addChild(gameOver)
+        
+        newGame = SKLabelNode(fontNamed: "Chalkduster")
+        newGame.name = "newGame"
+        newGame.text = "New Game"
+        newGame.position = CGPoint(x: 512, y: 234)
+        newGame.zPosition = 1
+        newGame.fontSize = 64
+        newGame.fontColor = .white
+        addChild(newGame)
         
         gameTimer?.invalidate()
     }

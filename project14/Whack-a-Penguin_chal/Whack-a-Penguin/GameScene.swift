@@ -11,6 +11,11 @@ class GameScene: SKScene {
     var slots = [WhackSlot]()
     var gameScore: SKLabelNode!
     
+    var finalScore: SKLabelNode!
+    var gameOver: SKSpriteNode!
+    var newGame: SKLabelNode!
+    var isGameOver = false
+    
     var popupTime = 0.85
     var numRounds = 0
     
@@ -51,22 +56,38 @@ class GameScene: SKScene {
         let tappedNodes = nodes(at: location)
         
         for node in tappedNodes {
-            guard let whackSlot = node.parent?.parent as? WhackSlot else { continue }
-            if !whackSlot.isVisible { continue }
-            if whackSlot.isHit { continue }
-            whackSlot.hit()
+            if isGameOver {
+                if node.name == "newGame" {
+                   // reset game
+                    isGameOver = false
+                   score = 0
+                   popupTime = 0.85
+                   numRounds = 0
+                   finalScore.removeFromParent()
+                   gameOver.removeFromParent()
+                   newGame.removeFromParent()
+                   DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
+                       self?.createEnemy()
+                   }
+               }
+            } else {
+                guard let whackSlot = node.parent?.parent as? WhackSlot else { continue }
+                if !whackSlot.isVisible { continue }
+                if whackSlot.isHit { continue }
+                whackSlot.hit()
 
-            if node.name == "charFriend" {
-                // they shouldn't have whacked this penguin                
-                score -= 5
-                run(SKAction.playSoundFileNamed("whackBad.caf", waitForCompletion: false))
-            } else if node.name == "charEnemy" {
-                // they should have whacked this one
-                whackSlot.charNode.xScale = 0.85
-                whackSlot.charNode.yScale = 0.85
-                
-                score += 1
-                run(SKAction.playSoundFileNamed("whack.caf", waitForCompletion: false))
+                if node.name == "charFriend" {
+                    // they shouldn't have whacked this penguin
+                    score -= 5
+                    run(SKAction.playSoundFileNamed("whackBad.caf", waitForCompletion: false))
+                } else if node.name == "charEnemy" {
+                    // they should have whacked this one
+                    whackSlot.charNode.xScale = 0.85
+                    whackSlot.charNode.yScale = 0.85
+                    
+                    score += 1
+                    run(SKAction.playSoundFileNamed("whack.caf", waitForCompletion: false))
+                }
             }
         }
     }
@@ -82,10 +103,11 @@ class GameScene: SKScene {
         numRounds += 1
         
         if numRounds >= 30 {
+            isGameOver = true
             for slot in slots {
                 slot.hide()
             }
-            let finalScore = SKLabelNode(fontNamed: "Chalkduster")
+            finalScore = SKLabelNode(fontNamed: "Chalkduster")
             finalScore.text = "Final Score: \(score)"
             finalScore.position = CGPoint(x: 512, y: 534)
             finalScore.horizontalAlignmentMode = .center
@@ -94,11 +116,21 @@ class GameScene: SKScene {
             finalScore.fontColor = .systemRed
             addChild(finalScore)
             
-            let gameOver = SKSpriteNode(imageNamed: "gameOver")
+            gameOver = SKSpriteNode(imageNamed: "gameOver")
             gameOver.position = CGPoint(x: 512, y: 384)
             gameOver.zPosition = 1
             addChild(gameOver)
             run(SKAction.playSoundFileNamed("gameOver.caf", waitForCompletion: false))
+            
+            newGame = SKLabelNode(fontNamed: "Chalkduster")
+            newGame.name = "newGame"
+            newGame.text = "New Game"
+            newGame.position = CGPoint(x: 512, y: 284)
+            newGame.zPosition = 1
+            newGame.fontSize = 64
+            newGame.fontColor = .white
+            addChild(newGame)
+            
             return
         }
         popupTime *= 0.991

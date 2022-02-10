@@ -12,13 +12,18 @@ class GameScene: SKScene {
     var fireworks = [SKNode]()
     var numLaunches = 0
     
+    var finalScore: SKLabelNode!
+    var gameOver: SKSpriteNode!
+    var newGame: SKLabelNode!
+    var isGameOver = false
+    
     let width = UIScreen.main.bounds.width
     let height = UIScreen.main.bounds.height
     
     let leftEdge = -22
     let bottomEdge = -22
     let rightEdge = Int(UIScreen.main.bounds.width) + 22
-
+    
     var scoreLabel: SKLabelNode!
     
     var score = 0 {
@@ -118,7 +123,7 @@ class GameScene: SKScene {
             createFirework(xMovement: movementAmount, x: leftEdge, y: bottomEdge + 200)
             createFirework(xMovement: movementAmount, x: leftEdge, y: bottomEdge + 100)
             createFirework(xMovement: movementAmount, x: leftEdge, y: bottomEdge)
-        
+            
         case 3:
             // fire 5, from the right to the left
             createFirework(xMovement: -movementAmount, x: rightEdge, y: bottomEdge + 400)
@@ -133,10 +138,31 @@ class GameScene: SKScene {
         
         if numLaunches >= 10 {
             gameTimer?.invalidate()
-            let gameOver = SKSpriteNode(imageNamed: "gameOver")
+            
+            isGameOver = true
+            finalScore = SKLabelNode(fontNamed: "Chalkduster")
+            finalScore.text = "Final Score: \(score)"
+            finalScore.position = CGPoint(x: 512, y: 534)
+            finalScore.horizontalAlignmentMode = .center
+            finalScore.zPosition = 1
+            finalScore.fontSize = 64
+            finalScore.fontColor = .white
+            addChild(finalScore)
+            
+            gameOver = SKSpriteNode(imageNamed: "gameOver")
             gameOver.position = CGPoint(x: 512, y: 384)
             gameOver.zPosition = 1
             addChild(gameOver)
+            
+            newGame = SKLabelNode(fontNamed: "Chalkduster")
+            newGame.name = "newGame"
+            newGame.text = "New Game"
+            newGame.position = CGPoint(x: 512, y: 284)
+            newGame.zPosition = 1
+            newGame.fontSize = 64
+            newGame.fontColor = .white
+            addChild(newGame)
+            
         }
     }
     
@@ -166,6 +192,23 @@ class GameScene: SKScene {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         checkTouches(touches)
+        
+        guard let touch = touches.first else { return }
+        let location = touch.location(in: self)
+        let tappedNodes = nodes(at: location)
+        
+        for node in tappedNodes {
+            if isGameOver && node.name == "newGame" {
+                // reset game
+                isGameOver = false
+                score = 0
+                numLaunches = 0
+                finalScore.removeFromParent()
+                gameOver.removeFromParent()
+                newGame.removeFromParent()
+                gameTimer = Timer.scheduledTimer(timeInterval: 6, target: self, selector: #selector(launchFireworks), userInfo: nil, repeats: true)
+            }
+        }
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
